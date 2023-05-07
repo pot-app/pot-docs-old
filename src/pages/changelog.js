@@ -46,8 +46,7 @@ export default function ChangeLog() {
                 <div className="container">
                     <h1>更新日志{success ? ` (共${changeLog.length}个)` : ''}</h1>
                     <hr />
-                    <Link to="https://github.com/Pylogmon/pot/releases">在Github查看</Link>
-                    <br />
+
                     {
                         loading ? <p>加载中...</p> :
                             success ?
@@ -62,6 +61,9 @@ export default function ChangeLog() {
                                                     }}>
                                                         {x.body.split('\n')[0].replace('## ', '')}
                                                     </summary>
+                                                    <Link to={`https://github.com/Pylogmon/pot/releases/tag/${x['tag_name']}`}>
+                                                        在Github查看
+                                                    </Link>
                                                     <ReactMarkdown>{
                                                         x.body.split('\n').slice(1).reduce((a, b) => {
                                                             return a + '\n' + b
