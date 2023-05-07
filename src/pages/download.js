@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import clsx from 'clsx';
+import styles from './index.module.css';
 import axios from 'axios';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -28,11 +30,12 @@ export default function About() {
     return (
         <Layout title="软件下载" description="下载">
             <div
+                className={clsx('hero ', styles.heroBanner)}
                 style={{
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    height: '50vh',
+                    height: '60vh',
                     fontSize: '20px',
                 }}>
                 <div style={{ display: 'inline-block', margin: 'auto' }}>
@@ -41,6 +44,8 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_zh-CN.msi` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         Windows x64(.msi)
+                        <br />
+                        {latestVersion}
                     </Link>
                     <br />
                     <Link
@@ -48,6 +53,8 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_portable.zip` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         Windows x64(portable)
+                        <br />
+                        {latestVersion}
                     </Link>
                 </div>
                 <div style={{ display: 'inline-block', margin: 'auto' }}>
@@ -56,6 +63,8 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         MacOS aarch64(.dmg)
+                        <br />
+                        {latestVersion}
                     </Link>
                     <br />
                     <Link
@@ -63,6 +72,8 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         MacOS x64(.dmg)
+                        <br />
+                        {latestVersion}
                     </Link>
                 </div>
                 <div style={{ display: 'inline-block', margin: 'auto' }}>
@@ -71,6 +82,8 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         Linux x64(.deb)
+                        <br />
+                        {latestVersion}
                     </Link>
                     <br />
                     <Link
@@ -78,6 +91,8 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cnhttps://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         Linux x64 universal(.deb)
+                        <br />
+                        {latestVersion}
                     </Link>
                     <br />
                     <Link
@@ -85,10 +100,16 @@ export default function About() {
                         style={{ marginTop: '25px', width: 300 }}
                         to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         Linux x64(.AppImage)
+                        <br />
+                        {latestVersion}
                     </Link>
                 </div>
+
             </div >
-            <HomepageFeatures />
+            <div style={{ height: '40vh' }}>
+                <HomepageFeatures />
+            </div>
+
         </Layout >
     );
 }
