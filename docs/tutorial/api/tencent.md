@@ -77,5 +77,3 @@
 [腾讯云机器翻译服务介绍](https://curl.qcloud.com/Ykn2htRP)
 
 [腾讯云机器翻译服务定价文档](https://curl.qcloud.com/JAXtzpXl)
-
-<CommentService />

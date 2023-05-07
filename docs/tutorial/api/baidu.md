@@ -48,5 +48,3 @@
 [百度翻译开放平台](https://fanyi-api.baidu.com/)
 
 [百度翻译通用翻译 API 定价文档](https://fanyi-api.baidu.com/product/112)
-
-<CommentService />

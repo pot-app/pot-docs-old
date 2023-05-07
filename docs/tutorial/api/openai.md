@@ -55,5 +55,3 @@ pot 提供了软件内代理设置
 [OpenAI 开放平台](https://platform.openai.com/)
 
 [GhatGPT API（gpt-3.5-turbo）定价文档](https://openai.com/pricing)
-
-<CommentService />

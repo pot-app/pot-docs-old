@@ -17,10 +17,8 @@
 
 具体的 api 服务申请流程可以参考以下内容:
 
-- [百度翻译](/guide/api/baidu.html)
-- [彩云小译](/guide/api/caiyun.html)
-- [OpenAI](/guide/api/openai.html)
-- [腾讯翻译君](/guide/api/tencent.html)
-- [火山翻译](/guide/api/volcengine.html)
-
-<CommentService />
+- [百度翻译](/docs/tutorial/api/baidu)
+- [彩云小译](/docs/tutorial/api/caiyun)
+- [OpenAI](/docs/tutorial/api/openai)
+- [腾讯翻译君](/docs/tutorial/api/tencent)
+- [火山翻译](/docs/tutorial/api/volcengine)

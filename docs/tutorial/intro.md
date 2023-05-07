@@ -124,5 +124,3 @@ sidebar_position: 1
 - [@uiYzzi](https://github.com/uiYzzi) 提供实现思路
 - [@Lichenkass](https://github.com/Lichenkass) 维护 Deepin 应用商店版本
 - [Tauri](https://github.com/tauri-apps/tauri) 好用的 Gui 框架
-
-<CommentService />

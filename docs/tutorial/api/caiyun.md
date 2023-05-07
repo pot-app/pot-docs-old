@@ -46,5 +46,3 @@
 [彩云小译 API 文档](https://docs.caiyunapp.com/blog/2018/09/03/lingocloud-api/)
 
 [彩云科技开放平台](https://dashboard.caiyunapp.com/)
-
-<CommentService />

@@ -33,5 +33,3 @@
 [火山翻译介绍](https://www.volcengine.com/product/machine-translation)
 
 [火山翻译定价文档](https://www.volcengine.com/docs/4640/68515)
-
-<CommentService />
