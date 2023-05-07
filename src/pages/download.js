@@ -30,9 +30,9 @@ export default function Download() {
             }
         )
     }, [])
-    return (
 
-        <Layout title="软件下载" description="下载">
+    return (
+        <Layout title="软件下载" description="软件下载">
             <div className={clsx('hero ', styles.heroBanner)}>
                 <div className="container"
                 >
