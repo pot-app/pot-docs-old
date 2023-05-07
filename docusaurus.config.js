@@ -156,7 +156,7 @@ const config = {
           `版权所有 © ${new Date().getFullYear()} Pylogmon, 以GPL-3.0协议发布`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: darkCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),

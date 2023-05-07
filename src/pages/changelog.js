@@ -55,9 +55,12 @@ export default function About() {
                                     {
                                         changeLog.map(x => {
                                             return (
-                                                <details key={x['tag_name']}>
-                                                    <summary>
-                                                        <h1>{x.body.split('\n')[0].replace('## ', '')}</h1>
+                                                <details key={x['tag_name']} id={x['tag_name']}>
+                                                    <summary style={{
+                                                        fontSize: 24,
+                                                        fontWeight: 'bold'
+                                                    }}>
+                                                        {x.body.split('\n')[0].replace('## ', '')}
                                                     </summary>
                                                     <ReactMarkdown>{
                                                         x.body.split('\n').slice(1).reduce((a, b) => {
