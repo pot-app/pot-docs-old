@@ -74,9 +74,28 @@ const config = {
             position: "left",
             label: "贡献指南",
           },
-          { to: "/about", label: "关于", position: "left" },
-          { to: "/download", label: "软件下载", position: "right" },
+          {
+            type: "dropdown",
+            label: "社区交流",
+            position: "left",
+            items: [
+              {
+                label: 'Telegram',
+                href: 'https://t.me/+J7m3u07S8cA0NzI1',
+              },
+              {
+                label: 'QQ',
+                href: "https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/qq_group.jpg"
+              }
+            ]
+          },
           { to: "/changelog", label: "更新日志", position: "right" },
+          {
+            to: "/download",
+            label: "软件下载",
+            className: 'navbarIcon downloadIcon',
+            position: "right"
+          },
           {
             label: "GitHub",
             href: "https://github.com/Pylogmon/pot",
