@@ -61,7 +61,7 @@ sidebar_position: 1
 </tr>
 <tr>
     <td>插件调用</td>
-    <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="/guide/config.html#%E6%8F%92%E4%BB%B6%E8%B0%83%E7%94%A8">插件调用</a></td>
+    <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="/docs/tutorial/config#插件调用">插件调用</a></td>
     <td><img src="https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/output3.gif"/></td>
 </tr>
 </table>
