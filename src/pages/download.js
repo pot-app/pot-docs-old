@@ -11,7 +11,7 @@ import { BsApple } from 'react-icons/bs';
 import { FaLinux } from 'react-icons/fa';
 
 export default function Download() {
-    const [latestVersion, setLatestVersion] = useState('0.2.4');
+    const [latestVersion, setLatestVersion] = useState();
     const {
         siteConfig: { customFields },
     } = useDocusaurusContext();
@@ -44,7 +44,7 @@ export default function Download() {
                                 to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_zh-CN.msi` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         Windows x64(.msi)
                                         <br />
                                         {latestVersion}
@@ -58,7 +58,7 @@ export default function Download() {
                                 to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_portable.zip` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         Windows x64(portable)
                                         <br />
                                         {latestVersion}
@@ -73,7 +73,7 @@ export default function Download() {
                                 to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         MacOS aarch64(.dmg)
                                         <br />
                                         {latestVersion}
@@ -88,7 +88,7 @@ export default function Download() {
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         MacOS x64(.dmg)
                                         <br />
                                         {latestVersion}
@@ -104,7 +104,7 @@ export default function Download() {
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64(.deb)
                                         <br />
                                         {latestVersion}
@@ -118,7 +118,7 @@ export default function Download() {
                                 to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64 universal(.deb)
                                         <br />
                                         {latestVersion}
@@ -132,7 +132,8 @@ export default function Download() {
                                 to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span>
+
+                                    <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64(.AppImage)
                                         <br />
                                         {latestVersion}
