@@ -92,12 +92,12 @@ sidebar_position: 1
 <tr>
     <td>插件调用</td>
     <td>❔</td>
-    <td> <a href="/guide/config.html#snipdo-windows">SnipDo</a></td>
-    <td> <a href="/guide/config.html#popclip-macos">PopClip</a></td>
+    <td> <a href="/docs/tutorial/config#snipdowindows">SnipDo</a></td>
+    <td> <a href="/docs/tutorial/config#popclipmacos">PopClip</a></td>
 </tr>
 <tr>
     <td>添加到 Anki</td>
-    <td colspan="3" align="center"> <a href="/guide/config.html#anki">配置指南</a></td>
+    <td colspan="3" align="center"> <a href="/docs/tutorial/config#anki">配置指南</a></td>
 </tr>
 </table>
 
