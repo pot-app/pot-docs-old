@@ -89,7 +89,7 @@ export default function About() {
                     <Link
                         className="button button--primary button--lg"
                         style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cnhttps://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
                         Linux x64 universal(.deb)
                         <br />
                         {latestVersion}
