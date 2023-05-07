@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Telegram',
-                href: 'https://t.me/+J7m3u07S8cA0NzI1',
+                href: 'https://t.me/Pot_Pylogmon',
               },
               {
                 label: 'QQ',
@@ -126,7 +126,7 @@ const config = {
             items: [
               {
                 label: "Telegram",
-                href: "https://t.me/+J7m3u07S8cA0NzI1",
+                href: "https://t.me/Pot_Pylogmon",
               },
               {
                 label: "Github",
