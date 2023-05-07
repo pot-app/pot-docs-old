@@ -9,7 +9,10 @@ const config = {
   title: "Pot",
   tagline: "一个跨平台划词翻译软件",
   favicon: "img/favicon.ico",
-
+  customFields: {
+    // 把你的自定义环境放在这里
+    github_token: process.env.GITHUB_TOKEN,
+  },
   // Set the production url of your site here
   url: "https://pot.pylogmon.cn",
   // Set the /<baseUrl>/ pathname under which your site is served
