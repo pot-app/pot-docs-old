@@ -89,7 +89,12 @@ const config = {
               }
             ]
           },
-          { to: "/donate", label: "捐赠", position: "left" },
+          {
+            to: "/donate",
+            label: "捐赠",
+            position: "left",
+            className: 'navbarIcon donateIcon',
+          },
           { to: "/changelog", label: "更新日志", position: "right" },
           {
             to: "/download",
