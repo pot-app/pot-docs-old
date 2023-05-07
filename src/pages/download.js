@@ -33,78 +33,81 @@ export default function About() {
                 className={clsx('hero ', styles.heroBanner)}
                 style={{
                     display: 'flex',
-                    justifyContent: 'center',
+                    justifyContent: 'space-between',
                     alignItems: 'center',
                     height: '60vh',
                     fontSize: '20px',
                 }}>
-                <div style={{ display: 'inline-block', margin: 'auto' }}>
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_zh-CN.msi` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        Windows x64(.msi)
-                        <br />
-                        {latestVersion}
-                    </Link>
-                    <br />
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_portable.zip` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        Windows x64(portable)
-                        <br />
-                        {latestVersion}
-                    </Link>
+                <div className="container">
+                    <div className="row">
+                        <div style={{ display: 'inline-block', margin: 'auto' }}>
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_zh-CN.msi` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                Windows x64(.msi)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                            <br />
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64_portable.zip` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                Windows x64(portable)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                        </div>
+                        <div style={{ display: 'inline-block', margin: 'auto' }}>
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                MacOS aarch64(.dmg)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                            <br />
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                MacOS x64(.dmg)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                        </div>
+                        <div style={{ display: 'inline-block', margin: 'auto' }}>
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                Linux x64(.deb)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                            <br />
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                Linux x64 universal(.deb)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                            <br />
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 300 }}
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                Linux x64(.AppImage)
+                                <br />
+                                {latestVersion}
+                            </Link>
+                        </div>
+                    </div>
                 </div>
-                <div style={{ display: 'inline-block', margin: 'auto' }}>
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        MacOS aarch64(.dmg)
-                        <br />
-                        {latestVersion}
-                    </Link>
-                    <br />
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_x64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        MacOS x64(.dmg)
-                        <br />
-                        {latestVersion}
-                    </Link>
-                </div>
-                <div style={{ display: 'inline-block', margin: 'auto' }}>
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        Linux x64(.deb)
-                        <br />
-                        {latestVersion}
-                    </Link>
-                    <br />
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        Linux x64 universal(.deb)
-                        <br />
-                        {latestVersion}
-                    </Link>
-                    <br />
-                    <Link
-                        className="button button--primary button--lg"
-                        style={{ marginTop: '25px', width: 300 }}
-                        to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/latest/download/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/Pylogmon/pot/releases/latest'}>
-                        Linux x64(.AppImage)
-                        <br />
-                        {latestVersion}
-                    </Link>
-                </div>
-
             </div >
             <div style={{ height: '40vh' }}>
                 <HomepageFeatures />
