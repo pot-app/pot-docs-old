@@ -77,6 +77,7 @@ const config = {
           {
             label: "GitHub",
             href: "https://github.com/Pylogmon/pot",
+            className: 'navbarIcon gitHubIcon',
             position: "right",
           },
         ],
