@@ -13,7 +13,7 @@ export default function About() {
                     fontSize: '20px',
                 }}>
                 <p>
-                    Edit <code>pages/changelog.js</code> and save to reload.
+                    施工中。。。
                 </p>
             </div>
         </Layout>
