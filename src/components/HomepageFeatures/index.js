@@ -31,8 +31,8 @@ const FeatureList = [
 
 function Feature({ title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className='card'>
+    <div className={clsx('col col--4')} >
+      <div className='card' style={{ marginTop: '20px' }}>
         <div style={{ height: 40 }} />
         <div className="text--center padding-horiz--md">
           <h3>{title}</h3>

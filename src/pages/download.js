@@ -7,7 +7,7 @@ import Link from '@docusaurus/Link';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-export default function About() {
+export default function Download() {
     const [latestVersion, setLatestVersion] = useState();
     const {
         siteConfig: { customFields },
@@ -28,17 +28,11 @@ export default function About() {
         )
     }, [])
     return (
+
         <Layout title="软件下载" description="下载">
-            <div
-                className={clsx('hero ', styles.heroBanner)}
-                style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    height: '60vh',
-                    fontSize: '20px',
-                }}>
-                <div className="container">
+            <div className={clsx('hero ', styles.heroBanner)}>
+                <div className="container"
+                >
                     <div className="row">
                         <div style={{ display: 'inline-block', margin: 'auto' }}>
                             <Link
@@ -108,8 +102,8 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-            </div >
-            <div style={{ height: '40vh' }}>
+            </div>
+            <div>
                 <HomepageFeatures />
             </div>
 
