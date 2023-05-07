@@ -17,8 +17,15 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <Link
           className="button button--secondary button--lg"
+          style={{ margin: 10 }}
           to="/docs/tutorial/intro">
           快速开始
+        </Link>
+        <Link
+          className="button button--secondary button--lg"
+          style={{ margin: 10 }}
+          to="/download">
+          立即下载
         </Link>
       </div>
     </header>

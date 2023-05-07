@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Pot",
-  tagline: "一个跨平台划词翻译软件",
+  tagline: "🌈一个跨平台划词翻译软件",
   favicon: "img/favicon.ico",
   customFields: {
     // 把你的自定义环境放在这里
