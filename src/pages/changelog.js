@@ -7,7 +7,7 @@ import styles from './index.module.css';
 import Link from '@docusaurus/Link';
 import axios from 'axios';
 
-export default function About() {
+export default function ChangeLog() {
     const [loading, setLoading] = useState(true);
     const [success, setSuccess] = useState(false);
     const [changeLog, setChangeLog] = useState([]);

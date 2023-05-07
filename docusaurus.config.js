@@ -89,6 +89,7 @@ const config = {
               }
             ]
           },
+          { to: "/donate", label: "捐赠", position: "left" },
           { to: "/changelog", label: "更新日志", position: "right" },
           {
             to: "/download",
@@ -145,8 +146,8 @@ const config = {
                 to: "/changelog",
               },
               {
-                label: "关于",
-                href: "/about",
+                label: "捐赠",
+                href: "/donate",
               },
             ],
           },
