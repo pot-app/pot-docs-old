@@ -18,13 +18,20 @@
 
 然后，在第四步的【获取密钥】中，点击【新建密钥】按钮后，火山引擎提供了两个选项：
 
-- 继续创建（使用主账号创建密钥，更便捷，但不保险）
+<details><summary>继续创建（使用主账号创建密钥，更便捷，但不保险）</summary>
+<p>
 
-  选择【继续创建】后，表格里会出现一条新的数据，其中就包含我们要用到的【Access Key ID】和【Secret Access Key】。
+选择【继续创建】后，表格里会出现一条新的数据，其中就包含我们要用到的【Access Key ID】和【Secret Access Key】。
 
-- 去新建子用户（使用子用户创建密钥，更安全，但步骤繁琐）
+</p>
+</details>
+<details><summary>去新建子用户（使用子用户创建密钥，更安全，但步骤繁琐）</summary>
+<p>
 
-  略
+略
+
+</p>
+</details>
 
 获取到【Access Key ID】和【Secret Access Key】之后，将它们填写进 pot 的【设置页】-【接口设置】-【火山翻译 Access Id】和【火山翻译 Access Key】中即可。
 

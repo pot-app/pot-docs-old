@@ -37,7 +37,7 @@
 
 ### 可选步骤：切换为高级版接口
 
-完成前三个步骤之后，你就可以使用标准版接口了，但如果你想使用高级版接口，可以打开百度翻译开放平台控制台 [https://fanyi-api.baidu.com/api/trans/product/desktop(https://fanyi-api.baidu.com/api/trans/product/desktop)]，点击写有「标准版」的下拉框即可切换为高级版。第一次切换为高级版的时候会让你进行身份认证。
+完成前三个步骤之后，你就可以使用标准版接口了，但如果你想使用高级版接口，可以打开百度翻译开放平台控制台 [https://fanyi-api.baidu.com/api/trans/product/desktop](https://fanyi-api.baidu.com/api/trans/product/desktop)，点击写有「标准版」的下拉框即可切换为高级版。第一次切换为高级版的时候会让你进行身份认证。
 
 ### 第四步：在 pot 中填写百度翻译 APPID 和 密钥
 
