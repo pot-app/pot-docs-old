@@ -7,6 +7,7 @@ import Link from '@docusaurus/Link';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { BsWindows } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 import { BsApple } from 'react-icons/bs';
 import { FaLinux } from 'react-icons/fa';
 
@@ -135,6 +136,24 @@ export default function Download() {
 
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64(.AppImage)
+                                        <br />
+                                        {latestVersion}
+                                    </span>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='row'>
+                        <div style={{ display: 'inline-block', margin: 'auto' }}>
+                            <Link
+                                className="button button--secondary button--lg"
+                                style={{ marginTop: '25px', width: 350 }}
+                                to='https://github.com/Pylogmon/pot/releases/latest'>
+
+                                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                                    <BsGithub style={{ marginTop: 'auto', marginBottom: 'auto' }} />
+                                    <span style={{ width: 250, textAlign: 'center' }}>
+                                        前往Github Release
                                         <br />
                                         {latestVersion}
                                     </span>
