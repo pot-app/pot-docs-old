@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -9,11 +10,31 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const [latestVersion, setLatestVersion] = useState();
+
+  useEffect(() => {
+    axios.get('https://api.github.com/repos/Pylogmon/pot/releases/latest', {
+      headers: {
+        Authorization: `Bearer ${siteConfig.customFields.github_token}`
+      }
+    }).then(
+      res => {
+        const { data: { tag_name } } = res;
+        setLatestVersion(tag_name)
+      },
+      err => {
+        console.log(err)
+      }
+    )
+  }, [])
+
   return (
     <header className={clsx('hero ', styles.heroBanner)}>
       <div className="container">
         <img src="img/pot.png" style={{ height: 150 }} />
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <br />
+        <h1 className="hero__title" style={{ display: 'inline-block' }}>{siteConfig.title}</h1>
+        <h1 className="hero__title" style={{ marginLeft: '24px', display: 'inline-block', color: '#ffc131' }}>{latestVersion}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <Link
           className="button button--secondary button--lg"
@@ -34,6 +55,7 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+
   return (
     <Layout
       title={`${siteConfig.title} | ${siteConfig.tagline}`}
