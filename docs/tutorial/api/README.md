@@ -17,6 +17,7 @@
 
 具体的 api 服务申请流程可以参考以下内容:
 
+- [阿里翻译](/docs/tutorial/api/alibaba.md)
 - [百度翻译](/docs/tutorial/api/baidu)
 - [彩云小译](/docs/tutorial/api/caiyun)
 - [OpenAI](/docs/tutorial/api/openai)

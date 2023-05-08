@@ -93,3 +93,9 @@
 ### 第三步：在 pot 中填写 AccessKey
 
 将上图中的【AccessKey ID】和【AccessKey Secret】填写进 pot 的【设置页】-【接口设置】-【阿里翻译】中即可。
+
+## 相关链接
+
+[阿里云通用版翻译引擎介绍](https://www.aliyun.com/product/ai/base_alimt)
+
+[阿里云机器翻译通用版定价文档](https://help.aliyun.com/document_detail/158294.html)

@@ -82,10 +82,17 @@ const config = {
               {
                 label: 'Telegram',
                 href: 'https://t.me/Pot_Pylogmon',
+                className: 'navbarIcon telegramIcon'
               },
               {
                 label: 'QQ',
-                href: "https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/qq_group.jpg"
+                href: "https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/qq_group.jpg",
+                className: 'navbarIcon qqIcon'
+              },
+              {
+                label: 'Github',
+                href: "https://github.com/Pylogmon/pot/discussions",
+                className: 'navbarIcon gitHubIcon'
               }
             ]
           },
@@ -95,7 +102,12 @@ const config = {
             position: "left",
             className: 'navbarIcon donateIcon',
           },
-          { to: "/changelog", label: "更新日志", position: "right" },
+          {
+            to: "/changelog",
+            label: "更新日志",
+            position: "right",
+            className: 'navbarIcon tagIcon',
+          },
           {
             to: "/download",
             label: "软件下载",
@@ -135,7 +147,7 @@ const config = {
               },
               {
                 label: "Github",
-                href: "https://github.com/Pylogmon/pot",
+                href: "https://github.com/Pylogmon/pot/discussions",
               },
               {
                 label: "QQ",
