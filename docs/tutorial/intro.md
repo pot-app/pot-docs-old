@@ -95,10 +95,6 @@ sidebar_position: 1
     <td> <a href="/docs/tutorial/config/plugin_config#snipdowindows">SnipDo</a></td>
     <td> <a href="/docs/tutorial/config/plugin_config#popclipmacos">PopClip</a></td>
 </tr>
-<tr>
-    <td>添加到 Anki</td>
-    <td colspan="3" align="center"> <a href="/docs/tutorial/config/ext_config#anki">配置指南</a></td>
-</tr>
 </table>
 
 ## 支持接口
