@@ -13,14 +13,14 @@ function HomepageHeader() {
   const [latestVersion, setLatestVersion] = useState();
 
   useEffect(() => {
-    axios.get('https://api.github.com/repos/Pylogmon/pot/releases/latest', {
+    axios.get('https://api.github.com/repos/Pylogmon/pot/releases/tags/updater', {
       headers: {
         Authorization: `Bearer ${siteConfig.customFields.github_token}`
       }
     }).then(
       res => {
-        const { data: { tag_name } } = res;
-        setLatestVersion(tag_name)
+        const { data: { body } } = res;
+        setLatestVersion(body)
       },
       err => {
         console.log(err)
