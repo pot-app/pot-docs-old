@@ -10,8 +10,8 @@ sidebar_position: 1
 
 > 🌈 一个跨平台的划词翻译软件 (
 > [快速上手](/docs/tutorial/intro)|
-> [软件下载](https://github.com/Pylogmon/pot/releases)|
-> [进阶配置](/docs/tutorial/config)|
+> [软件下载](/download)|
+> [进阶配置](/docs/category/软件配置)|
 > [QQ 交流群](https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/qq_group.jpg))
 
 ![License](https://img.shields.io/github/license/Pylogmon/pot.svg)
@@ -61,7 +61,7 @@ sidebar_position: 1
 </tr>
 <tr>
     <td>插件调用</td>
-    <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="/docs/tutorial/config#插件调用">插件调用</a></td>
+    <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="/docs/tutorial/config/plugin_config">插件调用</a></td>
     <td><img src="https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/output3.gif"/></td>
 </tr>
 </table>
@@ -92,12 +92,12 @@ sidebar_position: 1
 <tr>
     <td>插件调用</td>
     <td>❔</td>
-    <td> <a href="/docs/tutorial/config#snipdowindows">SnipDo</a></td>
-    <td> <a href="/docs/tutorial/config#popclipmacos">PopClip</a></td>
+    <td> <a href="/docs/tutorial/config/plugin_config#snipdowindows">SnipDo</a></td>
+    <td> <a href="/docs/tutorial/config/plugin_config#popclipmacos">PopClip</a></td>
 </tr>
 <tr>
     <td>添加到 Anki</td>
-    <td colspan="3" align="center"> <a href="/docs/tutorial/config#anki">配置指南</a></td>
+    <td colspan="3" align="center"> <a href="/docs/tutorial/config/ext_config#anki">配置指南</a></td>
 </tr>
 </table>
 
