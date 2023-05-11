@@ -36,6 +36,20 @@ MacOS 提供了 `x64` 版本和 `aarch64` 版本，分别对应 `intel` 芯片�
 
 下载完成之后打开 `dmg` 文件，将 `pot` 拖到 `Application` 内即可。
 
+:::info
+由于应用没有签名，所以 MacOS 可能会显示开发者无法验证或应用已损坏
+
+点击 `取消` 按钮，然后去 设置 -> 隐私与安全性 页面，点击 仍要打开 按钮，然后在弹出窗口里点击
+打开 按钮即可，以后打开 pot 就再也不会有任何弹窗告警了
+
+如果在 隐私与安全性 中找不到以上选项，或启动时提示文件损坏。打开 Terminal.app，并输入以下命令，然后重启 pot 即可：
+
+```bash
+sudo xattr -d com.apple.quarantine /Applications/pot.app
+```
+
+:::
+
 <Link className="button button--primary button--lg" to="/download">
   <div style={{ display: "flex", justifyContent: "space-between" }}>
     <BsDownload style={{ margin: "auto", marginRight: "14px" }} />
