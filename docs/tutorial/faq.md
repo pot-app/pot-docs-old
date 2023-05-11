@@ -12,7 +12,7 @@ sidebar_position: 5
 
 ## 一些常见的闪退原因
 
-1. 系统 glibc/openssl 版本过低(Linux)
+### 1. 系统 glibc/openssl 版本过低(Linux)
 
 - 原因
 
@@ -22,7 +22,7 @@ sidebar_position: 5
 
   Release 中另外提供了使用 Debian10 编译的 deb 包`pot_<version>_amd64_universal.deb`，需要`glibc=2.28`,`openssl=1.1`，请根据实际情况选择对应的包来安装。
 
-2. 被杀毒软件删除(Windows)
+### 2. 被杀毒软件删除(Windows)
 
 - 原因
 
@@ -32,7 +32,7 @@ sidebar_position: 5
 
   在杀毒软件中还原，并将软件加入白名单
 
-3. 配置文件格式错误
+### 3. 配置文件格式错误
 
 - 原因
 
