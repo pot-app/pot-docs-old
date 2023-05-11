@@ -29,7 +29,9 @@ export default function ChangeLog() {
         }).then(
             res => {
                 const { data } = res;
-                setChangeLog(data)
+                setChangeLog(data.filter(x => {
+                    return x['tag_name'] !== 'updater'
+                }))
                 setLoading(false);
                 setSuccess(true);
             },
