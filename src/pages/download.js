@@ -10,7 +10,6 @@ import { BsWindows } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { BsApple } from 'react-icons/bs';
 import { FaLinux } from 'react-icons/fa';
-
 export default function Download() {
     const [latestVersion, setLatestVersion] = useState();
     const {
@@ -37,6 +36,8 @@ export default function Download() {
             <div className={clsx('hero ', styles.heroBanner)}>
                 <div className="container"
                 >
+                    <h1 className="hero__title" style={{ color: '#ffc131' }}>{latestVersion}</h1>
+                    <div className='alert alert--info'>不知道该下载哪个？请查看 <Link to="/docs/tutorial/install">安装指南</Link></div>
                     <div className="row">
                         <div style={{ display: 'inline-block', margin: 'auto' }}>
                             <Link
@@ -47,8 +48,6 @@ export default function Download() {
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Windows x64(.msi)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -61,8 +60,6 @@ export default function Download() {
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Windows x64(portable)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -76,8 +73,6 @@ export default function Download() {
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         MacOS aarch64(.dmg)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -91,8 +86,6 @@ export default function Download() {
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         MacOS x64(.dmg)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -107,8 +100,6 @@ export default function Download() {
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64(.deb)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -121,8 +112,6 @@ export default function Download() {
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64 universal(.deb)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -136,8 +125,6 @@ export default function Download() {
 
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux x64(.AppImage)
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
@@ -154,8 +141,6 @@ export default function Download() {
                                     <BsGithub style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         前往Github Release
-                                        <br />
-                                        {latestVersion}
                                     </span>
                                 </div>
                             </Link>
