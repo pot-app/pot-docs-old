@@ -18,6 +18,10 @@ js 文件需要分别暴露 `info` 和 `translate` ，具体内容参考[src/int
 
 接口完成之后在[src/interfaces](https://github.com/Pylogmon/pot/blob/master/src/interfaces)目录下的 index.js 文件中参考参考文件内容暴露接口。
 
+### 添加接口图标
+
+将接口图标(必须是 svg 格式)放到 public 文件夹中，名字和接口 js 文件相同。
+
 ### 完成
 
 至此就新增了一个翻译接口。
