@@ -91,7 +91,7 @@ sidebar_position: 1
 </tr>
 <tr>
     <td>插件调用</td>
-    <td>❔</td>
+    <td> <a href="/docs/tutorial/config/plugin_config#starrylinux">Starry</a></td>
     <td> <a href="/docs/tutorial/config/plugin_config#snipdowindows">SnipDo</a></td>
     <td> <a href="/docs/tutorial/config/plugin_config#popclipmacos">PopClip</a></td>
 </tr>
