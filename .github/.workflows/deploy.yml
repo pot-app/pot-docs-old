@@ -1,0 +1,62 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  # Build Docusaurus
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE
+      - uses: actions/checkout@v3
+
+      # Setup NodeJs
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19
+
+      # Setup pnpm
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      # Install Dependencies
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Build Website
+      - name: Build Website
+        run: |
+          export GITHUB_TOKEN="${{ secrets.TOKEN }}"
+          pnpm build
+
+      # Upload artifact
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          name: build
+          path: build
+
+  # Deploy to github pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
+        with:
+          token: ${{ secrets.TOKEN }}
+          artifact_name: build
