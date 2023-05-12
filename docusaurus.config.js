@@ -21,8 +21,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Pylogmon", // Usually your GitHub org/user name.
-  projectName: "pot", // Usually your repo name.
+  organizationName: "pot-app", // Usually your GitHub org/user name.
+  projectName: "pot-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
