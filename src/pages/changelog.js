@@ -22,7 +22,7 @@ export default function ChangeLog() {
     function fetchChangeLog() {
         setLoading(true);
         setSuccess(false);
-        axios.get('https://api.github.com/repos/Pylogmon/pot/releases?per_page=100', {
+        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases?per_page=100', {
             headers: {
                 Authorization: `Bearer ${customFields.github_token}`
             }
@@ -63,7 +63,7 @@ export default function ChangeLog() {
                                                     }}>
                                                         {x.body.split('\n')[0].replace('## ', '')}
                                                     </summary>
-                                                    <Link to={`https://github.com/Pylogmon/pot/releases/tag/${x['tag_name']}`}>
+                                                    <Link to={`https://github.com/pot-app/pot-desktop/releases/tag/${x['tag_name']}`}>
                                                         在Github查看
                                                     </Link>
                                                     <ReactMarkdown>{

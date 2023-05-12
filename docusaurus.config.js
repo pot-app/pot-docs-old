@@ -86,12 +86,12 @@ const config = {
               },
               {
                 label: 'QQ',
-                href: "https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/qq_group.jpg",
+                href: "https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/qq_group.jpg",
                 className: 'navbarIcon qqIcon'
               },
               {
                 label: 'Github',
-                href: "https://github.com/Pylogmon/pot/discussions",
+                href: "https://github.com/pot-app/pot-desktop/discussions",
                 className: 'navbarIcon gitHubIcon'
               }
             ]
@@ -116,7 +116,7 @@ const config = {
           },
           {
             label: "GitHub",
-            href: "https://github.com/Pylogmon/pot",
+            href: "https://github.com/pot-app/pot-desktop",
             className: 'navbarIcon gitHubIcon',
             position: "right",
           },
@@ -147,11 +147,11 @@ const config = {
               },
               {
                 label: "Github",
-                href: "https://github.com/Pylogmon/pot/discussions",
+                href: "https://github.com/pot-app/pot-desktop/discussions",
               },
               {
                 label: "QQ",
-                href: "https://cdn.staticaly.com/gh/Pylogmon/pot/master/asset/qq_group.jpg",
+                href: "https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/qq_group.jpg",
               },
             ],
           },

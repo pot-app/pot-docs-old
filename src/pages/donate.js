@@ -11,13 +11,13 @@ export default function Donate() {
                 <div className='container' style={{ height: '100vh' }}>
                     <img src='img/donate.png' style={{ width: '60%' }} />
                     <h1>您的Star也是对我最大的支持</h1>
-                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Pylogmon/pot?style=social" style={{ marginRight: 8 }}></img>
+                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pot-app/pot-desktop?style=social" style={{ marginRight: 8 }}></img>
 
-                    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Pylogmon/pot?style=social"></img>
+                    <img alt="GitHub forks" src="https://img.shields.io/github/forks/pot-app/pot-desktop?style=social"></img>
                     <br />
                     <Link
                         className="button button--secondary button--lg"
-                        to='https://github.com/Pylogmon/pot'
+                        to='https://github.com/pot-app/pot-desktop'
                     >Star 支持</Link>
                 </div>
             </div>

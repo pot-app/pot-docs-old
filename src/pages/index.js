@@ -13,7 +13,7 @@ function HomepageHeader() {
   const [latestVersion, setLatestVersion] = useState();
 
   useEffect(() => {
-    axios.get('https://api.github.com/repos/Pylogmon/pot/releases/tags/updater', {
+    axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater', {
       headers: {
         Authorization: `Bearer ${siteConfig.customFields.github_token}`
       }

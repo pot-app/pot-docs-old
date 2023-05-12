@@ -16,7 +16,7 @@ export default function Download() {
         siteConfig: { customFields },
     } = useDocusaurusContext();
     useEffect(() => {
-        axios.get('https://api.github.com/repos/Pylogmon/pot/releases/tags/updater', {
+        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater', {
             headers: {
                 Authorization: `Bearer ${customFields.github_token}`
             }
@@ -43,7 +43,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_x64_zh-CN.msi` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64_zh-CN.msi` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -55,7 +55,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_x64_portable.zip` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64_portable.zip` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -68,7 +68,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -80,7 +80,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_x64.dmg` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64.dmg` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -94,7 +94,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_amd64.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -107,7 +107,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -119,7 +119,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/Pylogmon/pot/releases/download/${latestVersion}/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/Pylogmon/pot/releases/latest'}>
+                                to={latestVersion ? `https://gh.pylogmon.cn/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
 
@@ -135,7 +135,7 @@ export default function Download() {
                             <Link
                                 className="button button--secondary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to='https://github.com/Pylogmon/pot/releases/latest'>
+                                to='https://github.com/pot-app/pot-desktop/releases/latest'>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsGithub style={{ marginTop: 'auto', marginBottom: 'auto' }} />
