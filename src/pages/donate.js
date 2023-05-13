@@ -31,6 +31,7 @@ export default function Donate() {
                                     <td>日期</td>
                                     <td>用户</td>
                                     <td>金额</td>
+                                    <td>支付方式</td>
                                     <td>留言</td>
                                 </tr>
                             </thead>
@@ -42,6 +43,7 @@ export default function Donate() {
                                                 <td>{x.date}</td>
                                                 <td>{x.name}</td>
                                                 <td>{x.money}</td>
+                                                <td>{x.method}</td>
                                                 <td>{x.message}</td>
                                             </tr>)
                                     })
