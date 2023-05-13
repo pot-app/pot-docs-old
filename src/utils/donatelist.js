@@ -10,7 +10,7 @@ export default [
         name: '*珂',
         money: 9.99,
         method: '支付宝',
-        message: ''
+        message: '宝宝加油！'
     }, {
         date: '2023-05-07',
         name: 'E*i',
