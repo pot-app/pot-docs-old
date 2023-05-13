@@ -7,7 +7,7 @@ import donatelist from '../utils/donatelist';
 
 export default function Donate() {
     return (
-        <Layout title="关于" description="关于">
+        <Layout title="捐赠" description="捐赠">
             <div className={clsx('hero ', styles.heroBanner)} >
                 <div className='container'>
                     <h1>🌟您的Star是对我最大的支持🌟</h1>
