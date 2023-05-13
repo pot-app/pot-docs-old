@@ -11,7 +11,7 @@ export default function Donate() {
             <div className={clsx('hero ', styles.heroBanner)} >
                 <div className='container'>
                     <h1>🌟您的Star是对我最大的支持🌟</h1>
-                    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pot-app/pot-desktop?style=social" style={{ marginRight: 8 }}></img>
+                    <img alt="GitHub Repo stars" src="img/donate.png" style={{ marginRight: 8 }}></img>
 
                     <img alt="GitHub forks" src="https://img.shields.io/github/forks/pot-app/pot-desktop?style=social"></img>
                     <br />
