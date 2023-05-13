@@ -1,8 +1,9 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import clsx from 'clsx';
 import styles from './index.module.css';
-import Link from '@docusaurus/Link';
+import donatelist from '../utils/donatelist';
 
 export default function Donate() {
     return (
@@ -19,6 +20,34 @@ export default function Donate() {
                         className="button button--secondary button--lg"
                         to='https://github.com/pot-app/pot-desktop'
                     >Star 支持</Link>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <table style={{ margin: 16 }}>
+                            <thead>
+                                <tr>
+                                    <td colSpan={4}>支持列表</td>
+                                </tr>
+                                <tr>
+                                    <td>日期</td>
+                                    <td>用户</td>
+                                    <td>金额</td>
+                                    <td>留言</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    donatelist.map(x => {
+                                        return (
+                                            <tr key={x.date + x.name}>
+                                                <td>{x.date}</td>
+                                                <td>{x.name}</td>
+                                                <td>{x.money}</td>
+                                                <td>{x.message}</td>
+                                            </tr>)
+                                    })
+                                }
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </Layout >
