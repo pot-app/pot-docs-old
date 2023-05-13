@@ -10,16 +10,19 @@ export default function Donate() {
         <Layout title="关于" description="关于">
             <div className={clsx('hero ', styles.heroBanner)} >
                 <div className='container'>
-                    <img src='https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/.github/FUNDING/qrcode.png' style={{ width: '60%' }} />
-                    <h1>您的Star是对我最大的支持</h1>
+                    <h1>🌟您的Star是对我最大的支持🌟</h1>
                     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pot-app/pot-desktop?style=social" style={{ marginRight: 8 }}></img>
 
                     <img alt="GitHub forks" src="https://img.shields.io/github/forks/pot-app/pot-desktop?style=social"></img>
                     <br />
                     <Link
+                        style={{ margin: 16 }}
                         className="button button--secondary button--lg"
                         to='https://github.com/pot-app/pot-desktop'
                     >Star 支持</Link>
+                    <br />
+                    <img src='https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/.github/FUNDING/qrcode.png' style={{ width: '60%' }} />
+
                     <h1 style={{ margin: 16 }}>捐赠列表</h1>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <table>
