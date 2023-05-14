@@ -37,7 +37,17 @@ export default function Download() {
                 <div className="container"
                 >
                     <h1 className="hero__title" style={{ color: '#ffc131' }}>{latestVersion}</h1>
-                    <div className='alert alert--info'>不知道该下载哪个？请查看 <Link to="/docs/tutorial/install">安装指南</Link></div>
+                    <div className='alert alert--info' style={{ display: 'flex', justifyContent: 'space-around' }}>
+                        <span>
+                            不知道该下载哪个？请查看
+                            <Link to="/docs/tutorial/install"> 安装指南 </Link>
+                        </span>
+                        <span>
+                            本站下载加速由
+                            <Link to="https://ghproxy.com"> ghproxy.com </Link>
+                            提供
+                        </span>
+                    </div>
                     <div className="row">
                         <div style={{ display: 'inline-block', margin: 'auto' }}>
                             <Link
