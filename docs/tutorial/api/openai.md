@@ -48,7 +48,9 @@ pot 提供了软件内代理设置
 2. 获取 ForwardKey
 3. 将自定义域名设置为`openai.api2d.net`
 4. 在设置中填入`ForwardKey`
+
    ![API2D](./asset/API2D.png)
+
    > 使用 API2D 的计费请参考 API2D 的[计费说明](https://api2d.com/wiki/doc)
 
 #### aiproxy
@@ -57,7 +59,9 @@ pot 提供了软件内代理设置
 2. 获取 Api Key
 3. 将自定义域名设置为`api.aiproxy.io`
 4. 在设置中填入获取到的 `Api Key`
+
    ![aiproxy](./asset/aiproxy.png)
+
    > 使用 aiproxy 的计费请参考 aiproxy 的[计费说明](https://aiproxy.io/pricing)
 
 ## 相关链接
