@@ -14,7 +14,7 @@ const config = {
     github_token: process.env.GITHUB_TOKEN,
   },
   // Set the production url of your site here
-  url: "https://pot.pylogmon.cn",
+  url: "https://pot.pylogmon.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",

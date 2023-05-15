@@ -31,7 +31,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero ', styles.heroBanner)}>
       <div className="container">
-        <img src="img/pot.png" style={{ height: 150 }} />
+        <img alt="Logo" src="img/pot.png" height={150} style={{ height: 150 }} />
         <br />
         <h1 className="hero__title" style={{ display: 'inline-block' }}>{siteConfig.title}</h1>
         <h1 className="hero__title" style={{ marginLeft: '24px', display: 'inline-block', color: '#ffc131' }}>{latestVersion}</h1>
