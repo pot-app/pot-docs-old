@@ -51,7 +51,9 @@ pot 提供了软件内代理设置
 
    ![API2D](./asset/API2D.png)
 
-   > 使用 API2D 的计费请参考 API2D 的[计费说明](https://api2d.com/wiki/doc)
+:::info
+使用 API2D 的计费请参考 API2D 的[计费说明](https://api2d.com/wiki/doc)
+:::
 
 #### aiproxy
 
@@ -62,7 +64,9 @@ pot 提供了软件内代理设置
 
    ![aiproxy](./asset/aiproxy.png)
 
-   > 使用 aiproxy 的计费请参考 aiproxy 的[计费说明](https://aiproxy.io/pricing)
+:::info
+使用 aiproxy 的计费请参考 aiproxy 的[计费说明](https://aiproxy.io/pricing)
+:::
 
 ## 相关链接
 
