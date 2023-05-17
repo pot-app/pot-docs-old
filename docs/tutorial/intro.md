@@ -98,7 +98,6 @@ sidebar_position: 1
 
 ## 支持接口
 
-- DeepL(无需申请)
 - Open AI(需要申请 [api 服务](/docs/category/api服务申请) 0.002$/1000token)
 - 阿里翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
 - 百度翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
@@ -106,7 +105,9 @@ sidebar_position: 1
 - 腾讯翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 500 万字符)
 - 火山翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 200 万字符)
 - 谷歌翻译(无需申请，但需要自己解决网络问题，已提供镜像站地址设置选项)
+- 必应翻译(无需申请，直接使用)
 - 必应词典(无需申请，只能查词)
+- DeepL(无需申请，直接使用)
 
 具体的 api 服务申请步骤，见[申请指南](/docs/category/api服务申请)
 
