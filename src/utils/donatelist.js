@@ -19,7 +19,7 @@ export default [
         message: ''
     }, {
         date: '2023-05-13',
-        name: kingxiaofire',
+        name: 'kingxiaofire',
         money: 8.88,
         method: '微信',
         message: '请大佬喝瓶水'
