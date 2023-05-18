@@ -35,5 +35,11 @@ export default [
         money: 10.0,
         method: '微信',
         message: ''
+    }, {
+        date: '2023-05-18',
+        name: 'L*i',
+        money: 11.11,
+        method: '微信',
+        message: ''
     }
 ]
