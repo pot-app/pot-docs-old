@@ -104,6 +104,7 @@ sidebar_position: 1
 - 彩云小译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
 - 腾讯翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 500 万字符)
 - 火山翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 200 万字符)
+- Lingva 翻译(无需申请，可以直接使用，也可以自建服务(见[lingva-translate](https://github.com/TheDavidDelta/lingva-translate)))
 - 谷歌翻译(无需申请，但需要自己解决网络问题，已提供镜像站地址设置选项)
 - 必应翻译(无需申请，直接使用)
 - 必应词典(无需申请，只能查词)
