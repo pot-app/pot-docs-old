@@ -47,5 +47,11 @@ export default [
         money: 18.88,
         method: '支付宝',
         message: '希望早日完善 Wayland 支持'
+    }, {
+        date: '2023-05-19',
+        name: '帅哥yfn86',
+        money: 6.66,
+        method: '支付宝',
+        message: ''
     }
 ]
