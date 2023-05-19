@@ -46,6 +46,6 @@ export default [
         name: 'Integral🏳️‍🌈',
         money: 18.88,
         method: '支付宝',
-        message: ''
+        message: '希望早日完善 Wayland 支持'
     }
 ]
