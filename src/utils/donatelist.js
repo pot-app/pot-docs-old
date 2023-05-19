@@ -41,5 +41,11 @@ export default [
         money: 11.11,
         method: '微信',
         message: ''
+    }, {
+        date: '2023-05-19',
+        name: 'Integral🏳️‍🌈',
+        money: 18.88,
+        method: '支付宝',
+        message: ''
     }
 ]
