@@ -59,7 +59,7 @@ pot 提供了软件内代理设置
 
 #### aiproxy
 
-1. 注册 [aiproxy](https://aiproxy.io)
+1. 注册 [aiproxy](https://aiproxy.io/?i=pylogmon)
 2. 获取 Api Key
 3. 将自定义域名设置为`api.aiproxy.io`
 4. 在设置中填入获取到的 `Api Key`
