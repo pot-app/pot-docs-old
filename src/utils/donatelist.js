@@ -53,5 +53,11 @@ export default [
         money: 6.66,
         method: '支付宝',
         message: ''
+    }, {
+        date: '2023-05-23',
+        name: '*雪',
+        money: 2.00,
+        method: '微信',
+        message: ''
     }
 ]
