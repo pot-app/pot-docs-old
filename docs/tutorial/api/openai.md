@@ -70,6 +70,19 @@ pot 提供了软件内代理设置
 使用 aiproxy 的计费请参考 aiproxy 的[计费说明](https://aiproxy.io/pricing)
 :::
 
+#### AI.LS
+
+1. 打开[AI.LS](https://ai.ls/)官网
+2. 点击右边的`Get API Key/Tokens`,输入邮箱后购买
+3. 在 pot 中将自定义域名设置为`api.caipacity.com`
+4. 在设置中填入邮箱收到的 `Api Key`
+
+   ![AI.LS](./asset/ai.ls.png)
+
+:::info
+使用 AI.LS 的计费请参考 AI.LS 的[计费说明](https://ai.ls/?show-token-pricing=true)
+:::
+
 ## 相关链接
 
 [OpenAI 开放平台](https://platform.openai.com/)
