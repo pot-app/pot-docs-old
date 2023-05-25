@@ -60,4 +60,11 @@ export default [
         method: '微信',
         message: ''
     }
+    , {
+        date: '2023-05-25',
+        name: 'AI.LS',
+        money: 18.88,
+        method: '微信',
+        message: ''
+    }
 ]
