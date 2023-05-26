@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Telegram',
-                href: 'https://t.me/Pot_Pylogmon',
+                href: 'https://t.me/pot_app',
                 className: 'navbarIcon telegramIcon'
               },
               {
@@ -143,7 +143,7 @@ const config = {
             items: [
               {
                 label: "Telegram",
-                href: "https://t.me/Pot_Pylogmon",
+                href: "https://t.me/pot_app",
               },
               {
                 label: "Github",
