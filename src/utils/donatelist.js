@@ -59,12 +59,18 @@ export default [
         money: 2.00,
         method: '微信',
         message: ''
-    }
-    , {
+    }, {
         date: '2023-05-25',
         name: 'AI.LS',
         money: 18.88,
         method: '微信',
         message: ''
+    }
+    , {
+        date: '2023-05-26',
+        name: '14CC',
+        money: 2.88,
+        method: '微信',
+        message: '很好的工具'
     }
 ]
