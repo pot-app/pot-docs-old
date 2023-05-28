@@ -65,12 +65,17 @@ export default [
         money: 18.88,
         method: '微信',
         message: ''
-    }
-    , {
+    }, {
         date: '2023-05-26',
         name: '14CC',
         money: 2.88,
         method: '微信',
         message: '很好的工具'
+    }, {
+        date: '2023-05-28',
+        name: '*辰',
+        money: 10,
+        method: '支付宝',
+        message: ''
     }
 ]
