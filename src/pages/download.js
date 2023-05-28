@@ -57,7 +57,7 @@ export default function Download() {
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Windows x64(.msi)
+                                        Windows x64 (.msi)
                                     </span>
                                 </div>
                             </Link>
@@ -69,7 +69,7 @@ export default function Download() {
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Windows x64(portable)
+                                        Windows x64 (portable)
                                     </span>
                                 </div>
                             </Link>
@@ -82,7 +82,7 @@ export default function Download() {
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        MacOS aarch64(.dmg)
+                                        MacOS aarch64 (.dmg)
                                     </span>
                                 </div>
                             </Link>
@@ -95,7 +95,7 @@ export default function Download() {
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        MacOS x64(.dmg)
+                                        MacOS x64 (.dmg)
                                     </span>
                                 </div>
                             </Link>
@@ -109,7 +109,7 @@ export default function Download() {
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Linux x64(.deb)
+                                        Linux x64 (.deb)
                                     </span>
                                 </div>
                             </Link>
@@ -121,7 +121,7 @@ export default function Download() {
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Linux x64 universal(.deb)
+                                        Linux x64 universal (.deb)
                                     </span>
                                 </div>
                             </Link>
@@ -134,7 +134,7 @@ export default function Download() {
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
 
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Linux x64(.AppImage)
+                                        Linux x64 (.AppImage)
                                     </span>
                                 </div>
                             </Link>
