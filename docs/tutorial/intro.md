@@ -51,22 +51,22 @@ sidebar_position: 1
 <tr>
     <td>划词翻译</td>
     <td>选中需要翻译的文本之后，按下划词翻译快捷键即可</td>
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output1.gif"/></td>
+    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/example1.gif"/></td>
 </tr>
 <tr>
     <td>输入翻译</td>
     <td>按下输入翻译快捷键，输入需要翻译的文本，<code>Enter</code> 键翻译</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output2.gif"/></td>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/example2.gif"/></td>
 </tr>
 <tr>
     <td>插件调用</td>
     <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="/docs/tutorial/config/plugin_config">插件调用</a></td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output3.gif"/></td>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/example3.gif"/></td>
 </tr>
 <tr>
     <td>剪切板监听模式</td>
     <td>打开翻译窗口，启动剪切板监听模式，复制想要翻译的内容即可</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output4.gif"/></td>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/example4.gif"/></td>
 </tr>
 </table>
 
