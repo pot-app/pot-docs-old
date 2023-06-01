@@ -78,13 +78,13 @@ export default [
         method: '支付宝',
         message: ''
     }, {
-        date: '2023-05-28',
+        date: '2023-06-01',
         name: '*名',
         money: 10,
         method: '微信',
         message: ''
     }, {
-        date: '2023-05-28',
+        date: '2023-06-01',
         name: '**森',
         money: 50,
         method: '支付宝',
