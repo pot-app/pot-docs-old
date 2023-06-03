@@ -96,12 +96,12 @@ const config = {
               }
             ]
           },
-          {
-            to: "/donate",
-            label: "捐赠",
-            position: "left",
-            className: 'navbarIcon donateIcon',
-          },
+          //{
+          //  to: "/donate",
+          //  label: "捐赠",
+          //  position: "left",
+          //  className: 'navbarIcon donateIcon',
+          //},
           {
             to: "/changelog",
             label: "更新日志",
@@ -162,10 +162,10 @@ const config = {
                 label: "更新日志",
                 to: "/changelog",
               },
-              {
-                label: "捐赠",
-                href: "/donate",
-              },
+              //{
+              //  label: "捐赠",
+              //  href: "/donate",
+              //},
             ],
           },
         ],
