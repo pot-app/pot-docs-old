@@ -44,19 +44,6 @@ pot 提供了软件内代理设置
 
 由于本应用支持设置自定义请求域名，所有您可以直接设置使用第三方的服务
 
-#### API2D
-
-1. 注册 [API2D](https://api2d.com/r/186163)
-2. 获取 ForwardKey
-3. 将自定义域名设置为`openai.api2d.net`
-4. 在设置中填入`ForwardKey`
-
-   ![API2D](./asset/API2D.png)
-
-:::info
-使用 API2D 的计费请参考 API2D 的[计费说明](https://api2d.com/wiki/doc)
-:::
-
 #### aiproxy
 
 1. 注册 [aiproxy](https://aiproxy.io/?i=pylogmon)
@@ -82,6 +69,19 @@ pot 提供了软件内代理设置
 :::info
 使用 AI.LS 的计费请参考 AI.LS 的[计费说明](https://ai.ls/?show-token-pricing=true)
 :::
+
+<!-- #### API2D
+
+1. 注册 [API2D](https://api2d.com/r/186163)
+2. 获取 ForwardKey
+3. 将自定义域名设置为`openai.api2d.net`
+4. 在设置中填入`ForwardKey`
+
+   ![API2D](./asset/API2D.png)
+
+:::info
+使用 API2D 的计费请参考 API2D 的[计费说明](https://api2d.com/wiki/doc)
+::: -->
 
 ## 相关链接
 
