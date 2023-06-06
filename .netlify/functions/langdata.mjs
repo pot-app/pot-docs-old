@@ -3,11 +3,11 @@ import fetch from "node-fetch";
 const url = 'https://tessdata.projectnaptha.com/4.0.0/';
 
 export const handler = async (event, context) => {
-    const path = event.path;
-
+    let path = event.path;
+    path = path.replace('/.netlify/functions/langdata/', '');
     console.log(path);
     try {
-        const response = await fetch(url + path.split('/')[-1], {
+        const response = await fetch(url + path, {
             method: 'GET',
             headers: { 'Content-Type': 'application/octet-stream' },
         });
