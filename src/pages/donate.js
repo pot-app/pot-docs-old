@@ -7,7 +7,7 @@ import donatelist from '../utils/donatelist';
 
 export default function Donate() {
     return (
-        <Layout title="捐赠" description="捐赠">
+        <Layout title="赞赏" description="赞赏">
             <div className={clsx('hero ', styles.heroBanner)} >
                 <div className='container'>
                     <h1>🌟您的Star是对我最大的支持🌟</h1>
@@ -23,7 +23,7 @@ export default function Donate() {
                     <br />
                     <img src='img/donate.png' style={{ width: '60%' }} />
 
-                    <h1 style={{ margin: 16 }}>捐赠列表</h1>
+                    <h1 style={{ margin: 16 }}>赞赏列表</h1>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <table>
                             <thead>

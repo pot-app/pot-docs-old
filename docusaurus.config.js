@@ -98,7 +98,7 @@ const config = {
           },
           {
             to: "/donate",
-            label: "捐赠",
+            label: "赞赏",
             position: "left",
             className: 'navbarIcon donateIcon',
           },
@@ -163,7 +163,7 @@ const config = {
                 to: "/changelog",
               },
               {
-                label: "捐赠",
+                label: "赞赏",
                 href: "/donate",
               },
             ],
