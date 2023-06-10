@@ -76,42 +76,15 @@ sidebar_position: 1
 <tr>
     <td>截图翻译</td>
     <td>按下快捷键，框选需要识别区域即可</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/></td>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg6.gif"/></td>
 </tr>
 </table>
 
 </div>
 
-## 支持特性
-
-<table>
-<tr>
-    <td>支持特性</td>
-    <td>Linux</td>
-    <td>Windows</td>
-    <td>MacOS</td>
-</tr>
-<tr>
-    <td>划词翻译</td>
-    <td>✅</td>
-    <td>✅</td>
-    <td>✅</td>
-</tr>
-<tr>
-    <td>独立窗口</td>
-    <td>✅</td>
-    <td>✅</td>
-    <td>✅</td>
-</tr>
-<tr>
-    <td>插件调用</td>
-    <td> <a href="/docs/tutorial/config/plugin_config#starrylinux">Starry</a></td>
-    <td> <a href="/docs/tutorial/config/plugin_config#snipdowindows">SnipDo</a></td>
-    <td> <a href="/docs/tutorial/config/plugin_config#popclipmacos">PopClip</a></td>
-</tr>
-</table>
-
 ## 支持接口
+
+### 翻译 API
 
 - Open AI(需要申请 [api 服务](/docs/category/api服务申请) 0.002$/1000token)
 - 阿里翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
@@ -124,6 +97,16 @@ sidebar_position: 1
 - 必应翻译(无需申请，直接使用)
 - 必应词典(无需申请，只能查词)
 - DeepL(无需申请，直接使用(也可以使用自己的 API Key))
+
+### OCR API
+
+- Tesseract(无需申请，直接使用)
+- 百度 OCR(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 1000 次)
+- 腾讯 OCR(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 1000 次)
+- 火山 OCR(需要申请 [api 服务](/docs/category/api服务申请) 一次性免费额度 5000 次)
+- 讯飞 OCR(需要申请 [api 服务](/docs/category/api服务申请))
+- OCR Space(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 25000 次)
+- Simple Latex(需要申请 [api 服务](/docs/category/api服务申请) 一次性免费额度 1000 次)
 
 具体的 api 服务申请步骤，见[申请指南](/docs/category/api服务申请)
 
