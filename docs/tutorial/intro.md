@@ -68,6 +68,16 @@ sidebar_position: 1
     <td>打开翻译窗口，启动剪切板监听模式，复制想要翻译的内容即可</td>
     <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/></td>
 </tr>
+<tr>
+    <td>截图OCR</td>
+    <td>按下快捷键，框选需要识别区域即可</td>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg5.gif"/></td>
+</tr>
+<tr>
+    <td>截图翻译</td>
+    <td>按下快捷键，框选需要识别区域即可</td>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/></td>
+</tr>
 </table>
 
 </div>
