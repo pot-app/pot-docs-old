@@ -61,7 +61,7 @@ export default function Download() {
                                     </span>
                                 </div>
                             </Link>
-                            <br />
+                            {/* <br />
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
@@ -72,7 +72,7 @@ export default function Download() {
                                         Windows x64 (portable)
                                     </span>
                                 </div>
-                            </Link>
+                            </Link> */}
                         </div>
                         <div style={{ display: 'inline-block', margin: 'auto' }}>
                             <Link
