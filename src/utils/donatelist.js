@@ -89,5 +89,11 @@ export default [
         money: 50,
         method: '支付宝',
         message: '大佬，我给你捐赠一杯咖啡，加油！'
+    }, {
+        date: '2023-06-12',
+        name: '*帅',
+        money: 6.66,
+        method: '支付宝',
+        message: '大佬，加油，找了好久的软件！'
     }
 ]
