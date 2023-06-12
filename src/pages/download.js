@@ -61,6 +61,18 @@ export default function Download() {
                                     </span>
                                 </div>
                             </Link>
+                            <br />
+                            <Link
+                                className="button button--primary button--lg"
+                                style={{ marginTop: '25px', width: 350 }}
+                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x86_zh-CN.msi` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                                    <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
+                                    <span style={{ width: 250, textAlign: 'center' }}>
+                                        Windows x86 (.msi)
+                                    </span>
+                                </div>
+                            </Link>
                             {/* <br />
                             <Link
                                 className="button button--primary button--lg"
