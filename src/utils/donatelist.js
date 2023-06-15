@@ -102,4 +102,11 @@ export default [
         method: '支付宝',
         message: '支持一下:)'
     }
+    , {
+        date: '2023-06-15',
+        name: '*霖',
+        money: 20,
+        method: '微信',
+        message: '支持Pot'
+    }
 ]
