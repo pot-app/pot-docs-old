@@ -101,12 +101,18 @@ export default [
         money: 20,
         method: '支付宝',
         message: '支持一下:)'
-    }
-    , {
+    }, {
         date: '2023-06-15',
         name: '*霖',
-        money: 20,
+        money: 5,
         method: '微信',
         message: '支持Pot'
+    }
+    , {
+        date: '2023-06-16',
+        name: 'G*G',
+        money: 1,
+        method: '微信',
+        message: ''
     }
 ]
