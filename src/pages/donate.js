@@ -20,8 +20,12 @@ export default function Donate() {
                         className="button button--secondary button--lg"
                         to='https://github.com/pot-app/pot-desktop'
                     >Star 支持</Link>
+                    <Link
+                        style={{ margin: 16 }}
+                        className="button button--primary button--lg"
+                        to='https://afdian.net/a/pylogmon'
+                    >在爱发电支持我</Link>
                     <br />
-                    <img src='img/donate.png' style={{ width: '60%' }} />
 
                     <h1 style={{ margin: 16 }}>赞赏列表</h1>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
