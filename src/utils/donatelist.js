@@ -107,11 +107,16 @@ export default [
         money: 5,
         method: '微信',
         message: '支持Pot'
-    }
-    , {
+    }, {
         date: '2023-06-16',
         name: 'G*G',
         money: 1,
+        method: '微信',
+        message: ''
+    }, {
+        date: '2023-06-16',
+        name: 'H*h',
+        money: 8.88,
         method: '微信',
         message: ''
     }
