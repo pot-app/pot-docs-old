@@ -85,8 +85,8 @@ const config = {
                 className: 'navbarIcon telegramIcon'
               },
               {
-                label: 'QQ 频道',
-                href: "https://pd.qq.com/s/akns94e1r",
+                label: 'QQ',
+                href: "https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/qq_group.jpg",
                 className: 'navbarIcon qqIcon'
               },
               {
@@ -150,8 +150,8 @@ const config = {
                 href: "https://github.com/pot-app/pot-desktop/discussions",
               },
               {
-                label: "QQ 频道",
-                href: "https://pd.qq.com/s/akns94e1r",
+                label: "QQ",
+                href: "https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/qq_group.jpg",
               },
             ],
           },
