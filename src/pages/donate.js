@@ -11,7 +11,7 @@ export default function Donate() {
     useEffect(() => {
         axios.get('https://pot.pylogmon.com/.netlify/functions/afdian').then(
             res => {
-                setSponsorsList(JSON.parse(res));
+                setSponsorsList(JSON.parse(res.data));
             }
         )
     }, []);
