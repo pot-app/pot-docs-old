@@ -45,29 +45,6 @@ export default function Donate() {
                                     <td>日期</td>
                                     <td>用户</td>
                                     <td>金额</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {
-                                    sponsorsList.map(x => {
-                                        return (
-                                            <tr key={x.date + x.name}>
-                                                <td>{x.date}</td>
-                                                <td><a href={`https://afdian.net/u/${x.user_id}`}><img src={x.avatar} width="50px" /></a>{x.name}</td>
-                                                <td>{x.money}</td>
-                                            </tr>)
-                                    })
-                                }
-                            </tbody>
-                        </table>
-                    </div>
-                    <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <td>日期</td>
-                                    <td>用户</td>
-                                    <td>金额</td>
                                     <td>支付方式</td>
                                     <td>留言</td>
                                 </tr>
@@ -85,6 +62,31 @@ export default function Donate() {
                                             </tr>)
                                     })
 
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>日期</td>
+                                    <td></td>
+                                    <td>用户</td>
+                                    <td>金额</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {
+                                    sponsorsList.map(x => {
+                                        return (
+                                            <tr key={x.date + x.name}>
+                                                <td>{x.date}</td>
+                                                <td><a href={`https://afdian.net/u/${x.user_id}`}><img src={x.avatar} width="50px" /></a></td>
+                                                <td>{x.name}</td>
+                                                <td>{x.money}</td>
+                                            </tr>)
+                                    })
                                 }
                             </tbody>
                         </table>
