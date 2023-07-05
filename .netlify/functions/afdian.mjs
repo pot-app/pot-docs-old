@@ -22,7 +22,7 @@ export const handler = async (event, context) => {
                 date: Y + M + D,
                 avatar: x.user.avatar,
                 name: x.user.name,
-                user_id: x.user_id,
+                user_id: x.user.user_id,
                 money: x.all_sum_amount
             }
         })

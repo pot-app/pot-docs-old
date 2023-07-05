@@ -82,7 +82,7 @@ export default function Donate() {
                                         return (
                                             <tr key={x.date + x.name}>
                                                 <td>{x.date}</td>
-                                                <td><a href={`https://afdian.net/u/${x.user_id}`}><img src={x.avatar} /></a></td>
+                                                <td><a href={`https://afdian.net/u/${x.user_id}`}><img src={x.avatar} width="50px" /></a></td>
                                                 <td>{x.name}</td>
                                                 <td>{x.money}</td>
                                             </tr>)
