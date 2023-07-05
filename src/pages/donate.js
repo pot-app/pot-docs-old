@@ -63,6 +63,19 @@ export default function Donate() {
                                     })
 
                                 }
+                            </tbody>
+                        </table>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>日期</td>
+                                    <td>用户</td>
+                                    <td>金额</td>
+                                    <td>支付方式</td>
+                                    <td>留言</td>
+                                </tr>
+                            </thead>
+                            <tbody>
                                 {
                                     sponsorsList.map(x => {
                                         return (
