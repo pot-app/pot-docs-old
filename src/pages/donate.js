@@ -65,6 +65,8 @@ export default function Donate() {
                                 }
                             </tbody>
                         </table>
+                    </div>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <table>
                             <thead>
                                 <tr>
