@@ -11,7 +11,7 @@ export const handler = async (event, context) => {
 
     try {
         const response = await fetch(url, {
-            method: 'GET',
+            method: 'POST',
             body: { user_id, params, ts, sign }
         });
 
