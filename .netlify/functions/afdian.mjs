@@ -15,7 +15,7 @@ export const handler = async (event, context) => {
             body: { user_id, params, ts, sign }
         });
 
-        const data = await response.json();
+        const data = await response.text();
         return { statusCode: 200, body: data };
     } catch (error) {
         console.log(error);
