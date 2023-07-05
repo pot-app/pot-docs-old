@@ -5,7 +5,7 @@ const url = 'https://afdian.net/api/open/query-sponsor';
 export const handler = async (event, context) => {
     const user_id = process.env.AFDIAN_USER_ID;
     const token = process.env.AFDIAN_TOKEN;
-    const params = JSON.stringify({ page: 1 });
+    const params = JSON.stringify({ page: 1, user_id });
     const ts = new Date().getTime();
     const sign = md5(`${token}params${params}ts${ts}user_id${user_id}`);
 
