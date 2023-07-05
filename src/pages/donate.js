@@ -71,10 +71,9 @@ export default function Donate() {
                             <thead>
                                 <tr>
                                     <td>日期</td>
+                                    <td></td>
                                     <td>用户</td>
                                     <td>金额</td>
-                                    <td>支付方式</td>
-                                    <td>留言</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -83,10 +82,9 @@ export default function Donate() {
                                         return (
                                             <tr key={x.date + x.name}>
                                                 <td>{x.date}</td>
-                                                <td><a href={`https://afdian.net/u/${x.name}`}>{x.name}</a></td>
+                                                <td><a href={`https://afdian.net/u/${x.user_id}`}><img src={x.avatar} /></a></td>
+                                                <td>{x.name}</td>
                                                 <td>{x.money}</td>
-                                                <td>{x.method}</td>
-                                                <td>{x.message}</td>
                                             </tr>)
                                     })
                                 }

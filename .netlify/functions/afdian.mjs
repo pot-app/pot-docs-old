@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 import md5 from "md5";
-const url = 'https://afdian.net/api/open/query-order';
+const url = 'https://afdian.net/api/open/query-sponsor';
 
 export const handler = async (event, context) => {
     try {
@@ -14,17 +14,16 @@ export const handler = async (event, context) => {
             }
         }
         let parsedData = data.map(x => {
-            console.log(x)
-            let date = new Date(x.create_time * 1000);
+            let date = new Date(x.last_pay_time * 1000);
             let Y = date.getFullYear() + '-';
             let M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
             let D = date.getDate()
             return {
                 date: Y + M + D,
-                name: x.user_id,
-                money: x.total_amount,
-                method: '爱发电',
-                message: x.remark
+                avatar: x.user.avatar,
+                name: x.user.name,
+                user_id: x.user_id,
+                money: x.all_sum_amount
             }
         })
         return { statusCode: 200, body: JSON.stringify(parsedData) };
