@@ -7,6 +7,7 @@ export const handler = async (event, context) => {
     const token = process.env.AFDIAN_TOKEN;
     const params = JSON.stringify({ page: 1, user_id });
     const ts = new Date().getTime();
+    console.log(`${token}params${params}ts${ts}user_id${user_id}`);
     const sign = md5(`${token}params${params}ts${ts}user_id${user_id}`);
 
     try {
