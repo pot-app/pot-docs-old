@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import axios from 'axios';
 import clsx from 'clsx';
 import styles from './index.module.css';
 import donatelist from '../utils/donatelist';
 
 export default function Donate() {
+    const [sponsorsList, setSponsorsList] = useState([]);
+    useEffect(() => {
+        axios.get('https://pot.pylogmon.com/.netlify/functions/afdian').then(
+            res => {
+                setSponsorsList(JSON.parse(res));
+            }
+        )
+    }, []);
     return (
         <Layout title="赞赏" description="赞赏">
             <div className={clsx('hero ', styles.heroBanner)} >
