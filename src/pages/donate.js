@@ -60,6 +60,19 @@ export default function Donate() {
                                                 <td>{x.message}</td>
                                             </tr>)
                                     })
+
+                                }
+                                {
+                                    sponsorsList.map(x => {
+                                        return (
+                                            <tr key={x.date + x.name}>
+                                                <td>{x.date}</td>
+                                                <td><a href={`https://afdian.net/u/${x.name}`}>{x.name}</a></td>
+                                                <td>{x.money}</td>
+                                                <td>{x.method}</td>
+                                                <td>{x.message}</td>
+                                            </tr>)
+                                    })
                                 }
                             </tbody>
                         </table>
