@@ -21,6 +21,8 @@ sidebar_position: 3
 ```bash
 pot translate # 划词翻译
 pot persistent # 独立窗口
+pot screenshot_ocr # 截图OCR
+pot screenshot_translate # 截图翻译
 ```
 
 例如 Gnome 下的设置如图所示：

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # API 服务申请
 
 ## 为什么需要申请 API 服务
@@ -15,11 +19,4 @@
 
 ## api 服务申请指南
 
-具体的 api 服务申请流程可以参考以下内容:
-
-- [阿里翻译](/docs/tutorial/api/alibaba.md)
-- [百度翻译](/docs/tutorial/api/baidu)
-- [彩云小译](/docs/tutorial/api/caiyun)
-- [OpenAI](/docs/tutorial/api/openai)
-- [腾讯翻译君](/docs/tutorial/api/tencent)
-- [火山翻译](/docs/tutorial/api/volcengine)
+具体的 api 服务申请指南请参考下一章节
