@@ -9,7 +9,7 @@ import donatelist from '../utils/donatelist';
 export default function Donate() {
     const [sponsorsList, setSponsorsList] = useState([]);
     useEffect(() => {
-        axios.get('https://pot.pylogmon.com/.netlify/functions/afdian').then(
+        axios.get('/.netlify/functions/afdian').then(
             res => {
                 console.log(res.data);
                 setSponsorsList(res.data);
