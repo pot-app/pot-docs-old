@@ -93,6 +93,11 @@ const config = {
                 label: 'Github',
                 href: "https://github.com/pot-app/pot-desktop/discussions",
                 className: 'navbarIcon gitHubIcon'
+              },
+              {
+                label: "Email",
+                href: "mailto:support@pot-app.com",
+                className: 'navbarIcon emailIcon'
               }
             ]
           },
@@ -153,6 +158,10 @@ const config = {
                 label: "QQ 频道",
                 href: "https://pd.qq.com/s/akns94e1r",
               },
+              {
+                label: "Email",
+                href: "mailto:support@pot-app.com"
+              }
             ],
           },
           {
