@@ -15,6 +15,7 @@ sidebar_position: 1
 设置格式：
 
 - http: `http://{host}:{port}`
-- socks5: `socks5://{host}:{port}`
 
 例如：`http://127.0.0.1:7890`
+
+> 暂不支持设置 socks 代理
