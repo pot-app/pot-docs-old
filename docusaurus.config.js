@@ -90,6 +90,11 @@ const config = {
                 className: 'navbarIcon qqIcon'
               },
               {
+                label: 'QQ 群组',
+                href: "/img/qq_group.png",
+                className: 'navbarIcon qqIcon'
+              },
+              {
                 label: 'Github',
                 href: "https://github.com/pot-app/pot-desktop/discussions",
                 className: 'navbarIcon gitHubIcon'
@@ -157,6 +162,10 @@ const config = {
               {
                 label: "QQ 频道",
                 href: "https://pd.qq.com/s/akns94e1r",
+              },
+              {
+                label: "QQ 群组",
+                href: "/img/qq_group.png",
               },
               {
                 label: "Email",
