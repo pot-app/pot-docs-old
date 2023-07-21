@@ -91,7 +91,7 @@ const config = {
               },
               {
                 label: 'QQ 群组',
-                href: "/img/qq_group.png",
+                href: "https://pot-app.com/img/qq_group.png",
                 className: 'navbarIcon qqIcon'
               },
               {
@@ -165,7 +165,7 @@ const config = {
               },
               {
                 label: "QQ 群组",
-                href: "/img/qq_group.png",
+                href: "https://pot-app.com/img/qq_group.png",
               },
               {
                 label: "Email",
