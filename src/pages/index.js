@@ -10,6 +10,7 @@ import styles from './index.module.css';
 
 function HomepageHeader() {
   const [latestVersion, setLatestVersion] = useState();
+  const { siteConfig } = useDocusaurusContext();
 
   useEffect(() => {
     axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater').then(
