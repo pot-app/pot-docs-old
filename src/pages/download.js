@@ -5,22 +5,15 @@ import axios from 'axios';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { BsWindows } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { BsApple } from 'react-icons/bs';
 import { FaLinux } from 'react-icons/fa';
 export default function Download() {
     const [latestVersion, setLatestVersion] = useState();
-    const {
-        siteConfig: { customFields },
-    } = useDocusaurusContext();
+
     useEffect(() => {
-        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater', {
-            headers: {
-                Authorization: `Bearer ${customFields.github_token}`
-            }
-        }).then(
+        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater').then(
             res => {
                 const { data: { body } } = res;
                 setLatestVersion(body)

@@ -9,15 +9,10 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   const [latestVersion, setLatestVersion] = useState();
 
   useEffect(() => {
-    axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater', {
-      headers: {
-        Authorization: `Bearer ${siteConfig.customFields.github_token}`
-      }
-    }).then(
+    axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater').then(
       res => {
         const { data: { body } } = res;
         setLatestVersion(body)

@@ -1,4 +1,3 @@
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ReactMarkdown from 'react-markdown';
 import React, { useState, useEffect } from 'react';
 import Layout from '@theme/Layout';
@@ -11,9 +10,6 @@ export default function ChangeLog() {
     const [loading, setLoading] = useState(true);
     const [success, setSuccess] = useState(false);
     const [changeLog, setChangeLog] = useState([]);
-    const {
-        siteConfig: { customFields },
-    } = useDocusaurusContext();
 
     useEffect(() => {
         fetchChangeLog();
@@ -22,11 +18,7 @@ export default function ChangeLog() {
     function fetchChangeLog() {
         setLoading(true);
         setSuccess(false);
-        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases?per_page=100', {
-            headers: {
-                Authorization: `Bearer ${customFields.github_token}`
-            }
-        }).then(
+        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases?per_page=100').then(
             res => {
                 const { data } = res;
                 setChangeLog(data.filter(x => {
