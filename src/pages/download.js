@@ -122,18 +122,6 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64_universal.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                                    <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-                                    <span style={{ width: 250, textAlign: 'center' }}>
-                                        Linux x64 universal (.deb)
-                                    </span>
-                                </div>
-                            </Link>
-                            <br />
-                            <Link
-                                className="button button--primary button--lg"
-                                style={{ marginTop: '25px', width: 350 }}
                                 to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_i386.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -163,19 +151,6 @@ export default function Download() {
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
                                         Linux armv7 (.deb)
-                                    </span>
-                                </div>
-                            </Link>
-                            <br />
-                            <Link
-                                className="button button--primary button--lg"
-                                style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64.AppImage` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                                    <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
-
-                                    <span style={{ width: 250, textAlign: 'center' }}>
-                                        Linux x64 (.AppImage)
                                     </span>
                                 </div>
                             </Link>
