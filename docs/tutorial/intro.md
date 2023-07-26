@@ -89,13 +89,19 @@ sidebar_position: 1
 - Open AI(需要申请 [api 服务](/docs/category/api服务申请) 0.002$/1000token)
 - 阿里翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
 - 百度翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
+- 百度领域翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 50 万字符)
 - 彩云小译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
 - 腾讯翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 500 万字符)
+- 腾讯交互翻译(需要申请 [api 服务](/docs/category/api服务申请) 免费额度 不详)
 - 火山翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 200 万字符)
 - Lingva 翻译(无需申请，可以直接使用，也可以自建服务(见[lingva-translate](https://github.com/TheDavidDelta/lingva-translate)))
+- 小牛翻译(需要申请 [api 服务](/docs/category/api服务申请) 每天免费额度 20 万字符)
 - 谷歌翻译(无需申请，但需要自己解决网络问题，已提供镜像站地址设置选项)
 - 必应翻译(无需申请，直接使用)
 - 必应词典(无需申请，只能查词)
+- 剑桥词典(无需申请，只能查词)
+- MoJi 辞书(无需申请，只能查词)
+- Yandex(无需申请，直接使用)
 - DeepL(无需申请，直接使用(也可以使用自己的 API Key))
 
 ### OCR API
@@ -107,6 +113,9 @@ sidebar_position: 1
 - 讯飞 OCR(需要申请 [api 服务](/docs/category/api服务申请))
 - OCR Space(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 25000 次)
 - Simple Latex(需要申请 [api 服务](/docs/category/api服务申请) 一次性免费额度 1000 次)
+- 讯飞公式识别(需要申请 [api 服务](/docs/category/api服务申请) 每天免费额度 500 次)
+- 腾讯图片翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 10000 次)
+- 百度图片翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 10000 次)
 
 具体的 api 服务申请步骤，见[申请指南](/docs/category/api服务申请)
 
@@ -117,5 +126,5 @@ sidebar_position: 1
 - [Bob](https://github.com/ripperhe/Bob) 灵感来源
 - [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI 接口参考
 - [@uiYzzi](https://github.com/uiYzzi) 提供实现思路
-- [@Lichenkass](https://github.com/Lichenkass) 维护 Deepin 应用商店版本
+- [@Lichenkass](https://github.com/Lichenkass) 维护 Deepin/UOS 应用商店版本
 - [Tauri](https://github.com/tauri-apps/tauri) 好用的 Gui 框架
