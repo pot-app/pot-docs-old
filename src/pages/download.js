@@ -154,6 +154,7 @@ export default function Download() {
                                     </span>
                                 </div>
                             </Link>
+                            <br />
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
