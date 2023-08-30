@@ -19,7 +19,7 @@ export default function Download() {
 
     useEffect(() => {
         getVersion().then(v => {
-            setLatestVersion(body);
+            setLatestVersion(v);
         })
     }, [])
 

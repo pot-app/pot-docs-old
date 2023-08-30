@@ -19,7 +19,7 @@ function HomepageHeader() {
 
   useEffect(() => {
     getVersion().then(v => {
-      setLatestVersion(body);
+      setLatestVersion(v);
     })
   }, [])
 
