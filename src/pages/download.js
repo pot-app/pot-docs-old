@@ -10,7 +10,7 @@ import { BsGithub } from 'react-icons/bs';
 import { BsApple } from 'react-icons/bs';
 import { FaLinux } from 'react-icons/fa';
 export default function Download() {
-    const [latestVersion, setLatestVersion] = useState();
+    const [latestVersion, setLatestVersion] = useState('');
 
     const getVersion = async () => {
         const res = await axios.get('/.netlify/functions/version');
@@ -40,7 +40,7 @@ export default function Download() {
                             提供
                         </span>
                     </div>
-                    <div className="row">
+                    <div className="row" style={{ display: latestVersion === '' && 'none' }}>
                         <div style={{ display: 'inline-block', margin: 'auto' }}>
                             <Link
                                 className="button button--primary button--lg"
