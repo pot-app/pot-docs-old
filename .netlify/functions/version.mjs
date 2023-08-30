@@ -11,7 +11,7 @@ export const handler = async (event, context) => {
         const res_text = await response.text();
         const res = JSON.parse(res_text);
         console.log(res_text);
-        const { data: { body } } = res;
+        const { body } = res;
         return { statusCode: 200, body: body };
     } catch (error) {
         console.log(error);
