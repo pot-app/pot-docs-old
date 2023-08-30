@@ -12,16 +12,15 @@ import { FaLinux } from 'react-icons/fa';
 export default function Download() {
     const [latestVersion, setLatestVersion] = useState();
 
+    const getVersion = async () => {
+        const res = await axios.get('/.netlify/functions/version');
+        return res.data;
+    }
+
     useEffect(() => {
-        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases/tags/updater').then(
-            res => {
-                const { data: { body } } = res;
-                setLatestVersion(body)
-            },
-            err => {
-                console.log(err)
-            }
-        )
+        getVersion().then(v => {
+            setLatestVersion(body);
+        })
     }, [])
 
     return (
