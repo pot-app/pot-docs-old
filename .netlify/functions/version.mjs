@@ -8,9 +8,10 @@ export const handler = async (event, context) => {
             method: 'GET',
             headers: { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` },
         });
-
-        const res = await response.json();
-        return { statusCode: 200, body: res };
+        const res_text = await response.text();
+        const res = JSON.parse(res_text);
+        const { data: { body } } = res;
+        return { statusCode: 200, body: body };
     } catch (error) {
         console.log(error);
         return {
