@@ -4,12 +4,6 @@ sidebar_position: 5
 
 # FAQ
 
-## 配置文件存储位置
-
-- Linux `$XDG_CONFIG_HOME/com.pylogmon.pot/config.toml` or `$HOME/.config/com.pylogmon.pot/config.toml`
-- Windows `C:\User\{用户名}\AppData\Roaming\com.pylogmon.pot\config.toml`
-- MacOS `$HOME/Library/Application Support/com.pylogmon.pot/config.toml`
-
 ## 一些常见的闪退原因
 
 ### 1. 系统 glibc/openssl 版本过低(Linux)

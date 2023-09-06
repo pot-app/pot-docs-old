@@ -8,10 +8,7 @@ sidebar_position: 1
 
 # Pot (Translator of Pylogmon)
 
-> 🌈 一个跨平台的划词翻译软件 (
-> [快速上手](/docs/tutorial/intro)|
-> [软件下载](/download)|
-> [进阶配置](/docs/category/软件配置))
+> 🌈 一个跨平台的划词翻译软件
 
 ![License](https://img.shields.io/github/license/pot-app/pot-desktop.svg)
 ![Tauri](https://img.shields.io/badge/Tauri-1.3.0-blue?logo=tauri)
@@ -24,13 +21,6 @@ sidebar_position: 1
 <br/>
 <hr/>
 
-## 名字来源
-
-### pot(Translator of Pylogmon | 派了个萌的翻译器)
-
-> 不用 top 是因为已经有知名 linux 软件占用了`top`这个名字
-> 所以现在你也可以叫他翻译锅 😂
-
 <div align="center">
 <table>
 <tr>
@@ -42,80 +32,69 @@ sidebar_position: 1
 
 ## 使用方法
 
-<table>
-<tr>
-    <td></td>
-    <td>描述</td>
-    <td>预览</td>
-</tr>
-<tr>
-    <td>划词翻译</td>
-    <td>选中需要翻译的文本之后，按下划词翻译快捷键即可</td>
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg1.gif"/></td>
-</tr>
-<tr>
-    <td>输入翻译</td>
-    <td>按下输入翻译快捷键，输入需要翻译的文本，<code>Enter</code> 键翻译</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg2.gif"/></td>
-</tr>
-<tr>
-    <td>插件调用</td>
-    <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="/docs/tutorial/config/plugin_config">插件调用</a></td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg3.gif"/></td>
-</tr>
-<tr>
-    <td>剪切板监听模式</td>
-    <td>打开翻译窗口，启动剪切板监听模式，复制想要翻译的内容即可</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/></td>
-</tr>
-<tr>
-    <td>截图OCR</td>
-    <td>按下快捷键，框选需要识别区域即可</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg5.gif"/></td>
-</tr>
-<tr>
-    <td>截图翻译</td>
-    <td>按下快捷键，框选需要识别区域即可</td>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg6.gif"/></td>
-</tr>
-</table>
+| 划词翻译                                                                           | 输入翻译                                                                           | 外部调用                                                                           |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 鼠标选中需要翻译的文本，按下设置的划词翻译快捷键即可                               | 按下输入翻译快捷键呼出翻译窗口，输入待翻译文本后按下 回车 翻译                     | 通过被其他软件调用实现更加方便高效的功能, 详见 [外部调用](#外部调用)               |
+| <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg1.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg2.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg3.gif"/> |
+
+| 剪切板监听模式                                                                     | 截图 OCR                                                                           | 截图翻译                                                                           |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 在任意翻译面板上点击左上角图标启动剪切板监听默认，复制文字即可完成翻译             | 按下截图 OCR 快捷键后框选需要识别区域即可完成识别                                  | 按下截图翻译快捷键后框选需要识别区域即可完成翻译                                   |
+| <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg5.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg6.gif"/> |
 
 </div>
 
 ## 支持接口
 
-### 翻译 API
+### 翻译
 
-- Open AI(需要申请 [api 服务](/docs/category/api服务申请) 0.002$/1000token)
-- 阿里翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
-- 百度翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
-- 百度领域翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 50 万字符)
-- 彩云小译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 100 万字符)
-- 腾讯翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 500 万字符)
-- 腾讯交互翻译(需要申请 [api 服务](/docs/category/api服务申请) 免费额度 不详)
-- 火山翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 200 万字符)
-- Lingva 翻译(无需申请，可以直接使用，也可以自建服务(见[lingva-translate](https://github.com/TheDavidDelta/lingva-translate)))
-- 小牛翻译(需要申请 [api 服务](/docs/category/api服务申请) 每天免费额度 20 万字符)
-- 谷歌翻译(无需申请，但需要自己解决网络问题，已提供镜像站地址设置选项)
-- 必应翻译(无需申请，直接使用)
-- 必应词典(无需申请，只能查词)
-- 剑桥词典(无需申请，只能查词)
-- MoJi 辞书(无需申请，只能查词)
-- Yandex(无需申请，直接使用)
-- DeepL(无需申请，直接使用(也可以使用自己的 API Key))
+- [x] [OpenAI](https://platform.openai.com/)
+- [x] [阿里翻译](https://www.aliyun.com/product/ai/alimt)
+- [x] [百度翻译](https://fanyi.baidu.com/)
+- [x] [彩云小译](https://fanyi.caiyunapp.com/)
+- [x] [腾讯翻译君](https://fanyi.qq.com/)
+- [x] [腾讯交互翻译](https://transmart.qq.com/)
+- [x] [火山翻译](https://translate.volcengine.com/)
+- [x] [小牛翻译](https://niutrans.com/)
+- [x] [Lingva](https://github.com/thedaviddelta/lingva-translate)
+- [x] [Google](https://translate.google.com)
+- [x] [Bing](https://learn.microsoft.com/zh-cn/azure/cognitive-services/translator/)
+- [x] [Bing 词典](https://www.bing.com/dict)
+- [x] [DeepL](https://www.deepl.com/)
+- [x] [有道翻译](https://ai.youdao.com/)
+- [x] [剑桥词典](https://dictionary.cambridge.org/)
+- [x] [MoJi 辞书](https://www.mojidict.com/)
+- [x] [Yandex](https://translate.yandex.com/)
+- [x] [Tatoeba](https://tatoeba.org/)
+- [x] [PALM2](https://ai.google/discover/palm2/)
+- [ ] 持续增加...
 
-### OCR API
+### 文字识别
 
-- Tesseract(无需申请，直接使用)
-- 百度 OCR(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 1000 次)
-- 腾讯 OCR(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 1000 次)
-- 火山 OCR(需要申请 [api 服务](/docs/category/api服务申请) 一次性免费额度 5000 次)
-- 讯飞 OCR(需要申请 [api 服务](/docs/category/api服务申请))
-- OCR Space(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 25000 次)
-- Simple Latex(需要申请 [api 服务](/docs/category/api服务申请) 一次性免费额度 1000 次)
-- 讯飞公式识别(需要申请 [api 服务](/docs/category/api服务申请) 每天免费额度 500 次)
-- 腾讯图片翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 10000 次)
-- 百度图片翻译(需要申请 [api 服务](/docs/category/api服务申请) 每月免费额度 10000 次)
+- [x] 系统 OCR (离线)
+  - [x] [Windows.Media.OCR](https://learn.microsoft.com/en-us/uwp/api/windows.media.ocr.ocrengine?view=winrt-22621) on Windows
+  - [x] [Apple Vision Framework](https://developer.apple.com/documentation/vision/recognizing_text_in_images) on MacOS
+  - [x] [Tesseract OCR](https://github.com/tesseract-ocr) on Linux
+- [x] [Tesseract.js](https://tesseract.projectnaptha.com/) (离线)
+- [x] [PaddleOCR](https://github.com/xushengfeng/eSearch-OCR) (离线)
+- [x] [百度](https://ai.baidu.com/tech/ocr/general)
+- [x] [腾讯](https://cloud.tencent.com/product/ocr-catalog)
+- [x] [OCR Space](http://ocr.space/)
+- [x] [火山](https://www.volcengine.com/product/OCR)
+- [x] [迅飞](https://www.xfyun.cn/services/common-ocr)
+- [x] [腾讯图片翻译](https://cloud.tencent.com/document/product/551/17232)
+- [x] [百度图片翻译](https://fanyi-api.baidu.com/product/22)
+- [x] [Simple LaTeX](https://simpletex.cn/)
+- [ ] 持续增加...
+
+### 语音合成
+
+- [x] [Lingva](https://github.com/thedaviddelta/lingva-translate)
+
+### 生词本
+
+- [x] [Anki](https://apps.ankiweb.net/)
+- [x] [欧路词典](https://dict.eudic.net/)
 
 具体的 api 服务申请步骤，见[申请指南](/docs/category/api服务申请)
 

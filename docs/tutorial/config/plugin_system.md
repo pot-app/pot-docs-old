@@ -1,0 +1,17 @@
+---
+sidebar_position: 6
+---
+
+# 插件系统
+
+软件内置接口数量有限，但是您可以通过插件系统来扩展软件的功能。
+
+## 插件安装
+
+你可以在 [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) 仓库查找你需要的插件，然后前往插件仓库下载插件。
+
+pot 插件的扩展名为 `.potext`, 下载得到`.potext`文件之后， 在 偏好设置-服务设置-添加外部插件-安装外部插件 选择对应的 `.potext` 即可安装成功，添加到服务列表中即可像内置服务一样正常使用了。
+
+## 插件开发
+
+在 [pot-app-plugin-list](https://github.com/pot-app/pot-app-plugin-list) 仓库中的 [模板](https://github.com/pot-app/pot-app-plugin-list/blob/main/README_CN.md#%E6%A8%A1%E6%9D%BF) 章节提供了各种插件的开发模板，具体的开发文档请查看对应的模板仓库。

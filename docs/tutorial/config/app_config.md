@@ -8,7 +8,7 @@ sidebar_position: 1
 
 默认快捷键为空，需要先设置快捷键才能使用，设置方法见[快捷键设置](/docs/tutorial/config/shortcut_config)
 
-需要更方便的调用，请配置[插件调用](/docs/tutorial/config/plugin_config)
+需要更方便的调用，请配置[外部调用](/docs/tutorial/config/plugin_config)
 
 ## 网络代理
 
