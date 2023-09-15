@@ -66,12 +66,6 @@ const config = {
             label: "使用指南",
           },
           {
-            type: "docSidebar",
-            sidebarId: "contributeSidebar",
-            position: "left",
-            label: "贡献指南",
-          },
-          {
             type: "dropdown",
             label: "社区交流",
             position: "left",
@@ -138,10 +132,6 @@ const config = {
               {
                 label: "使用指南",
                 to: "/docs/tutorial/intro",
-              },
-              {
-                label: "贡献指南",
-                to: "/docs/contribute/intro",
               },
             ],
           },
