@@ -91,6 +91,11 @@ const config = {
                 className: 'navbarIcon gitHubIcon'
               },
               {
+                label: "Matrix",
+                href: "https://matrix.to/#/#pot-app:matrix.org",
+                className: 'navbarIcon matrixIcon'
+              },
+              {
                 label: "Email",
                 href: "mailto:support@pot-app.com",
                 className: 'navbarIcon emailIcon'
@@ -142,10 +147,7 @@ const config = {
                 label: "Telegram",
                 href: "https://t.me/pot_app",
               },
-              {
-                label: "Github",
-                href: "https://github.com/pot-app/pot-desktop/discussions",
-              },
+
               {
                 label: "QQ 频道",
                 href: "https://pd.qq.com/s/akns94e1r",
@@ -155,8 +157,8 @@ const config = {
                 href: "https://pot-app.com/img/qq_group.png",
               },
               {
-                label: "Email",
-                href: "mailto:support@pot-app.com"
+                label: "Matrix",
+                href: "https://matrix.to/#/#pot-app:matrix.org",
               }
             ],
           },
@@ -171,6 +173,14 @@ const config = {
                 label: "赞赏",
                 href: "/donate",
               },
+              {
+                label: "Github",
+                href: "https://github.com/pot-app/pot-desktop/discussions",
+              },
+              {
+                label: "Email",
+                href: "mailto:support@pot-app.com"
+              }
             ],
           },
         ],
