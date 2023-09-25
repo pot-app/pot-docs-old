@@ -24,23 +24,23 @@ sidebar_position: 1
 <div align="center">
 <table>
 <tr>
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/1.png"/></td>
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/2.png"/></td>
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/3.png"/></td>
+    <td> <img src="img/1.png"/></td>
+    <td> <img src="img/2.png"/></td>
+    <td> <img src="img/3.png"/></td>
 </tr>
 </table>
 
 ## 使用方法
 
-| 划词翻译                                                                           | 输入翻译                                                                           | 外部调用                                                                           |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 鼠标选中需要翻译的文本，按下设置的划词翻译快捷键即可                               | 按下输入翻译快捷键呼出翻译窗口，输入待翻译文本后按下 回车 翻译                     | 通过被其他软件调用实现更加方便高效的功能, 详见 [外部调用](#外部调用)               |
-| <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg1.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg2.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg3.gif"/> |
+| 划词翻译                                             | 输入翻译                                                       | 外部调用                                                             |
+| ---------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 鼠标选中需要翻译的文本，按下设置的划词翻译快捷键即可 | 按下输入翻译快捷键呼出翻译窗口，输入待翻译文本后按下 回车 翻译 | 通过被其他软件调用实现更加方便高效的功能, 详见 [外部调用](#外部调用) |
+| <img src="img/eg1.gif"/>                             | <img src="img/eg2.gif"/>                                       | <img src="img/eg3.gif"/>                                             |
 
-| 剪切板监听模式                                                                     | 截图 OCR                                                                           | 截图翻译                                                                           |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| 在任意翻译面板上点击左上角图标启动剪切板监听默认，复制文字即可完成翻译             | 按下截图 OCR 快捷键后框选需要识别区域即可完成识别                                  | 按下截图翻译快捷键后框选需要识别区域即可完成翻译                                   |
-| <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg5.gif"/> | <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg6.gif"/> |
+| 剪切板监听模式                                                         | 截图 OCR                                          | 截图翻译                                         |
+| ---------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ |
+| 在任意翻译面板上点击左上角图标启动剪切板监听默认，复制文字即可完成翻译 | 按下截图 OCR 快捷键后框选需要识别区域即可完成识别 | 按下截图翻译快捷键后框选需要识别区域即可完成翻译 |
+| <img src="img/eg4.gif"/>                                               | <img src="img/eg5.gif"/>                          | <img src="img/eg6.gif"/>                         |
 
 </div>
 
