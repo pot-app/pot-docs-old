@@ -170,7 +170,7 @@ export default function Download() {
                                 </div>
                             </Link>
                         </div>
-                        <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style="max-width:350px"></div>
+                        <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "350px" }}></div>
                     </div>
                 </div>
             </div>
