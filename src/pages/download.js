@@ -4,7 +4,6 @@ import styles from './index.module.css';
 import axios from 'axios';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import Head from '@docusaurus/Head';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import { BsWindows } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
@@ -26,9 +25,6 @@ export default function Download() {
 
     return (
         <Layout title="软件下载" description="软件下载">
-            <Head>
-                <script type="text/javascript" src="https://cdn.wwads.cn/js/makemoney.js"></script>
-            </Head>
             <div className={clsx('hero ', styles.heroBanner)}>
                 <div className="container"
                 >
@@ -175,7 +171,6 @@ export default function Download() {
                             </Link>
                         </div>
                     </div>
-                    <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style="max-width:350px"></div>
                 </div>
             </div>
             <div>
