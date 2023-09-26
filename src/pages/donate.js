@@ -18,7 +18,7 @@ export default function Donate() {
     }, []);
     return (
         <Layout title="赞赏" description="赞赏">
-            <div class="wwads-cn wwads-vertical wwads-sticky" data-id="285" style="max-width:180px"></div>
+            <div class="wwads-cn wwads-vertical wwads-sticky" data-id="285" style={{ maxWidth: "180px" }}></div>
             <div className={clsx('hero ', styles.heroBanner)} >
                 <div className='container'>
                     <h1>🌟您的Star是对我最大的支持🌟</h1>

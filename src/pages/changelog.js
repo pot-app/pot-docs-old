@@ -74,7 +74,7 @@ export default function ChangeLog() {
                                 </>
                     }
                 </div>
-
+                <div class="wwads-cn wwads-vertical wwads-sticky" data-id="285" style={{ maxWidth: "180px" }}></div>
             </div>
         </Layout>
     );
