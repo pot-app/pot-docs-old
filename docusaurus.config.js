@@ -6,6 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  scripts: [
+    // Object format.
+    {
+      src: 'https://cdn.wwads.cn/js/makemoney.js',
+      async: true,
+    },
+  ],
   title: "Pot",
   tagline: "🌈一个跨平台划词翻译软件",
   favicon: "img/favicon.ico",
