@@ -25,6 +25,7 @@ export default function Download() {
 
     return (
         <Layout title="软件下载" description="软件下载">
+            <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "350px" }}></div>
             <div className={clsx('hero ', styles.heroBanner)}>
                 <div className="container"
                 >
@@ -170,7 +171,7 @@ export default function Download() {
                                 </div>
                             </Link>
                         </div>
-                        <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "350px" }}></div>
+
                     </div>
                 </div>
             </div>

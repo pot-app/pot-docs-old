@@ -36,6 +36,7 @@ export default function ChangeLog() {
     }
     return (
         <Layout title="更新日志" description="更新日志">
+            <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "400px" }}></div>
             <div className={clsx('hero ', styles.heroBanner)}>
                 <div className="container">
                     <h1>更新日志{success ? ` (共${changeLog.length}个)` : ''}</h1>
@@ -74,7 +75,6 @@ export default function ChangeLog() {
                                 </>
                     }
                 </div>
-                <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "230px" }}></div>
             </div>
         </Layout>
     );
