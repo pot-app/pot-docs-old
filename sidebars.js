@@ -18,11 +18,7 @@ const sidebars = {
     type: 'html',
     value: '<div class="wwads-cn wwads-vertical" data-id="285" style="max-width:250px"></div>', // The HTML to be rendered
     defaultStyle: true, // Use the default menu item styling
-  }, {
-    type: 'html',
-    value: '<div class="wwads-cn wwads-vertical" data-id="285" style="max-width:250px"></div>', // The HTML to be rendered
-    defaultStyle: true, // Use the default menu item styling
-  },],
+  }],
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
