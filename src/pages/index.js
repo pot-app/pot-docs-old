@@ -25,7 +25,9 @@ function HomepageHeader() {
 
   return (
     <header className={clsx('hero ', styles.heroBanner)}>
+
       <div className="container">
+
         <img alt="Logo" src="img/pot.png" height={150} style={{ height: 150 }} />
         <br />
         <h1 className="hero__title" style={{ display: 'inline-block' }}>{siteConfig.title}</h1>
@@ -50,11 +52,24 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
+  const [showAdBlockAlert, setShowAdBlockAlert] = useState(false);
+
+  useEffect(() => {
+    if (window._AdBlockInit === undefined) {
+      setShowAdBlockAlert(true);
+    }
+  }, []);
 
   return (
     <Layout
       title={`${siteConfig.title} | ${siteConfig.tagline}`}
       description={siteConfig.tagline}>
+      {
+        showAdBlockAlert && <div className='alert alert--warning' style={{ margin: '5px', textAlign: 'center' }}>
+          <h3>为了本站的长期运营，请将我们的网站加入广告拦截器的白名单，感谢您的支持！</h3>
+        </div>
+      }
+
       <HomepageHeader />
       <main>
         <HomepageFeatures />

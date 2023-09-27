@@ -10,9 +10,13 @@ export default function ChangeLog() {
     const [loading, setLoading] = useState(true);
     const [success, setSuccess] = useState(false);
     const [changeLog, setChangeLog] = useState([]);
+    const [showAdBlockAlert, setShowAdBlockAlert] = useState(false);
 
     useEffect(() => {
         fetchChangeLog();
+        if (window._AdBlockInit === undefined) {
+            setShowAdBlockAlert(true);
+        }
     }, [])
 
     function fetchChangeLog() {
@@ -36,6 +40,11 @@ export default function ChangeLog() {
     }
     return (
         <Layout title="更新日志" description="更新日志">
+            {
+                showAdBlockAlert && <div className='alert alert--warning' style={{ margin: '5px', textAlign: 'center' }}>
+                    <h3>为了本站的长期运营，请将我们的网站加入广告拦截器的白名单，感谢您的支持！</h3>
+                </div>
+            }
             <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "400px" }}></div>
             <div className={clsx('hero ', styles.heroBanner)}>
                 <div className="container">

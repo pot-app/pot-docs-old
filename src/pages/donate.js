@@ -8,6 +8,8 @@ import donatelist from '../utils/donatelist';
 
 export default function Donate() {
     const [sponsorsList, setSponsorsList] = useState([]);
+    const [showAdBlockAlert, setShowAdBlockAlert] = useState(false);
+
     useEffect(() => {
         axios.get('/.netlify/functions/afdian').then(
             res => {
@@ -15,9 +17,17 @@ export default function Donate() {
                 setSponsorsList(res.data);
             }
         );
+        if (window._AdBlockInit === undefined) {
+            setShowAdBlockAlert(true);
+        }
     }, []);
     return (
         <Layout title="赞赏" description="赞赏">
+            {
+                showAdBlockAlert && <div className='alert alert--warning' style={{ margin: '5px', textAlign: 'center' }}>
+                    <h3>为了本站的长期运营，请将我们的网站加入广告拦截器的白名单，感谢您的支持！</h3>
+                </div>
+            }
             <div class="wwads-cn wwads-horizontal wwads-sticky" data-id="285" style={{ maxWidth: "400px" }}></div>
             <div className={clsx('hero ', styles.heroBanner)} >
                 <div className='container'>
