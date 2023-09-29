@@ -55,11 +55,11 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64-setup.exe` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64_en-US.msi`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Windows x64 (.exe)
+                                        Windows x64 (.msi)
                                     </span>
                                 </div>
                             </Link>
@@ -67,11 +67,11 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x86-setup.exe` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x86_en-US.msi`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
-                                        Windows x86 (.exe)
+                                        Windows x86 (.msi)
                                     </span>
                                 </div>
                             </Link>
@@ -79,7 +79,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_arm64-setup.exe` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_arm64-setup.exe`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -92,7 +92,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_aarch64.dmg`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -104,7 +104,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64.dmg` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64.dmg`}>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -118,7 +118,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64.deb`}>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -131,7 +131,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_i386.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_i386.deb`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -143,7 +143,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_arm64.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_arm64.deb`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -155,7 +155,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_armhf.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={`https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_armhf.deb`}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
