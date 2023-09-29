@@ -96,6 +96,10 @@ sudo xattr -d com.apple.quarantine /Applications/pot.app
 <details>
   <summary>Arch/Manjaro 用户</summary>
 
+> [!WARNING]  
+> 在最新版本的 [Webkit2Gtk](https://archlinux.org/packages/extra/x86_64/webkit2gtk) (2.42.0) 中，由于 Nvidia 专有驱动未完全实现 DMABUF，将导致无法启动和崩溃的情况发生。<br>
+> 请降级或在 `/etc/environment` （或者其他设置环境变量的地方）中加入 `WEBKIT_DISABLE_DMABUF_RENDERER=1` 环境变量关闭 DMABUF 的使用。
+
 1. 前往 [AUR](https://aur.archlinux.org/packages?O=0&K=pot-translation) 查看
 
 使用 aur helper：
