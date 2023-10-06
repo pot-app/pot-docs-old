@@ -13,8 +13,8 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
   const getVersion = async () => {
-    const res = await axios.get('/.netlify/functions/version');
-    return res.data;
+    const res = await axios.get('https://jihulab.com/api/v4/projects/153845/releases/permalink/latest');
+    return res.data.tag_name;
   }
 
   useEffect(() => {

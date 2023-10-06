@@ -14,8 +14,8 @@ export default function Download() {
     const [showAdBlockAlert, setShowAdBlockAlert] = useState(false);
 
     const getVersion = async () => {
-        const res = await axios.get('/.netlify/functions/version');
-        return res.data;
+        const res = await axios.get('https://jihulab.com/api/v4/projects/153845/releases/permalink/latest');
+        return res.data.tag_name;
     }
 
     useEffect(() => {
@@ -55,7 +55,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64-setup.exe` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_x64-setup.exe` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -67,7 +67,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x86-setup.exe` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_x86-setup.exe` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -79,7 +79,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_arm64-setup.exe` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_arm64-setup.exe` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsWindows style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -92,7 +92,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_aarch64.dmg` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_aarch64.dmg` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -104,7 +104,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_x64.dmg` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_x64.dmg` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <BsApple style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -118,7 +118,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_amd64.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_amd64.deb` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
 
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
@@ -131,7 +131,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_i386.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_i386.deb` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -143,7 +143,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_arm64.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_arm64.deb` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
@@ -155,7 +155,7 @@ export default function Download() {
                             <Link
                                 className="button button--primary button--lg"
                                 style={{ marginTop: '25px', width: 350 }}
-                                to={latestVersion ? `https://ghproxy.com/https://github.com/pot-app/pot-desktop/releases/download/${latestVersion}/pot_${latestVersion}_armhf.deb` : 'https://github.com/pot-app/pot-desktop/releases/latest'}>
+                                to={latestVersion ? `https://jihulab.com/api/v4/projects/153845/packages/generic/pot-desktop/${latestVersion}/pot_${latestVersion}_armhf.deb` : 'https://jihulab.com/pot-app/pot-desktop/-/releases'}>
                                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                                     <FaLinux style={{ marginTop: 'auto', marginBottom: 'auto' }} />
                                     <span style={{ width: 250, textAlign: 'center' }}>
