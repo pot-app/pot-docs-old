@@ -133,6 +133,12 @@ const config = {
             className: 'navbarIcon gitHubIcon',
             position: "right",
           },
+          {
+            label: "Jihulab",
+            href: "https://jihulab.com/pot-app/pot-desktop",
+            className: 'navbarIcon gitlabIcon',
+            position: "right",
+          },
         ],
       },
       footer: {
