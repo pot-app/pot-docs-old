@@ -5,6 +5,7 @@ import axios from 'axios';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { FaGitlab } from 'react-icons/fa6';
 import { BsWindows } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { BsApple } from 'react-icons/bs';
@@ -180,7 +181,20 @@ export default function Download() {
                                 </div>
                             </Link>
                         </div>
+                        <div style={{ display: 'inline-block', margin: 'auto' }}>
+                            <Link
+                                className="button button--secondary button--lg"
+                                style={{ marginTop: '25px', width: 350 }}
+                                to='https://jihulab.com/pot-app/pot-desktop/-/releases'>
 
+                                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                                    <FaGitlab style={{ marginTop: 'auto', marginBottom: 'auto' }} />
+                                    <span style={{ width: 250, textAlign: 'center' }}>
+                                        前往Jihulab Release
+                                    </span>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
