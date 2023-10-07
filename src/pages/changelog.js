@@ -22,12 +22,10 @@ export default function ChangeLog() {
     function fetchChangeLog() {
         setLoading(true);
         setSuccess(false);
-        axios.get('https://api.github.com/repos/pot-app/pot-desktop/releases?per_page=100').then(
+        axios.get('https://jihulab.com/api/v4/projects/153845/releases').then(
             res => {
                 const { data } = res;
-                setChangeLog(data.filter(x => {
-                    return x['tag_name'] !== 'updater'
-                }))
+                setChangeLog(data);
                 setLoading(false);
                 setSuccess(true);
             },
@@ -63,16 +61,21 @@ export default function ChangeLog() {
                                                         fontSize: 24,
                                                         fontWeight: 'bold'
                                                     }}>
-                                                        {x.body.split('\n')[0].replace('## ', '')}
+                                                        {x.description.split('\n')[0].replace('## ', '')}
                                                     </summary>
-                                                    <Link to={`https://github.com/pot-app/pot-desktop/releases/tag/${x['tag_name']}`}>
-                                                        在Github查看
-                                                    </Link>
                                                     <ReactMarkdown>{
-                                                        x.body.split('\n').slice(1).reduce((a, b) => {
+                                                        x.description.split('\n').slice(1).reduce((a, b) => {
                                                             return a + '\n' + b
                                                         })
                                                     }</ReactMarkdown>
+                                                    <Link className="button button--secondary button--md" to={`https://github.com/pot-app/pot-desktop/releases/tag/${x['tag_name']}`}
+                                                        style={{ marginRight: '8px' }}
+                                                    >
+                                                        在Github查看
+                                                    </Link>
+                                                    <Link className="button button--secondary button--md mr-1" to={`https://jihulab.com/pot-app/pot-desktop/-/releases/${x['tag_name']}`}>
+                                                        在Jihulab查看
+                                                    </Link>
                                                 </details>
                                             )
                                         })
