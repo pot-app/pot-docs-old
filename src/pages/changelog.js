@@ -22,7 +22,7 @@ export default function ChangeLog() {
     function fetchChangeLog() {
         setLoading(true);
         setSuccess(false);
-        axios.get('https://jihulab.com/api/v4/projects/153845/releases').then(
+        axios.get('https://jihulab.com/api/v4/projects/153845/releases?per_page=100').then(
             res => {
                 const { data } = res;
                 setChangeLog(data);
