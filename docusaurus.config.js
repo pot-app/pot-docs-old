@@ -116,6 +116,12 @@ const config = {
             className: 'navbarIcon donateIcon',
           },
           {
+            to: "https://www.chatyy.com/",
+            label: "ChatGPT-4",
+            position: "left",
+            className: 'navbarIcon adsIcon',
+          },
+          {
             to: "/changelog",
             label: "更新日志",
             position: "right",

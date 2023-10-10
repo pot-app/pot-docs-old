@@ -18,6 +18,10 @@ const sidebars = {
     type: 'html',
     value: '<div class="wwads-cn wwads-vertical" data-id="285" style="max-width:250px"></div>', // The HTML to be rendered
     defaultStyle: true, // Use the default menu item styling
+  }, {
+    type: 'html',
+    value: '<div style="width:250px"><a href="https://ad-server.paperyy.com/link/1711549612131209217" target="blank"><img width="250px" src="/img/chatgpt.png"/></a><p style="font-size:7px">广告</p></div>', // The HTML to be rendered
+    defaultStyle: true, // Use the default menu item styling
   }],
   // But you can create a sidebar manually
   /*
