@@ -116,8 +116,8 @@ const config = {
             className: 'navbarIcon donateIcon',
           },
           {
-            to: "https://ad-server.paperyy.com/link/1711549612131209217",
-            label: "ChatGPT-4",
+            to: "http://8xw9f9.checkmore.net/tb/fC5kVX",
+            label: "AI 写作",
             position: "left",
             className: 'navbarIcon adsIcon',
           },
