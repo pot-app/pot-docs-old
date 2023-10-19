@@ -12,6 +12,10 @@ const config = {
       src: 'https://cdn.wwads.cn/js/makemoney.js',
       async: true,
     },
+    {
+      src: 'https://pot-app.com/js/baidu.js',
+      async: true,
+    }
   ],
   title: "Pot",
   tagline: "🌈一个跨平台划词翻译软件",
