@@ -23,6 +23,10 @@ const config = {
     {
       src: 'https://pot-app.com/js/google.js',
       async: false,
+    },
+    {
+      src: 'https://pot-app.com/js/microsoft.js',
+      async: false,
     }
   ],
   title: "Pot",
