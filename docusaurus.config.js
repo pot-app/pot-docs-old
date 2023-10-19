@@ -15,6 +15,14 @@ const config = {
     {
       src: 'https://pot-app.com/js/baidu.js',
       async: true,
+    },
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-D9P8XT4LJS',
+      async: true,
+    },
+    {
+      src: 'https://pot-app.com/js/google.js',
+      async: false,
     }
   ],
   title: "Pot",
