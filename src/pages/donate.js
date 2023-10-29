@@ -11,7 +11,7 @@ export default function Donate() {
     const [showAdBlockAlert, setShowAdBlockAlert] = useState(false);
 
     useEffect(() => {
-        axios.get('/.netlify/functions/afdian').then(
+        axios.get('/afdian').then(
             res => {
                 console.log(res.data);
                 setSponsorsList(res.data);

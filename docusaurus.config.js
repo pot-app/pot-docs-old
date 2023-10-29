@@ -132,12 +132,6 @@ const config = {
             className: 'navbarIcon donateIcon',
           },
           {
-            to: "http://8xw9f9.checkmore.net/tb/fC5kVX",
-            label: "AI 写作",
-            position: "left",
-            className: 'navbarIcon adsIcon',
-          },
-          {
             to: "/changelog",
             label: "更新日志",
             position: "right",
